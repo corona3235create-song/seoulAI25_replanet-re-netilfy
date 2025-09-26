@@ -36,10 +36,7 @@ const Signup: React.FC = () => {
       return;
     }
     
-    if (!formData.agreeTerms || !formData.agreePrivacy) {
-      alert('필수 약관에 동의해주세요.');
-      return;
-    }
+    
     
     setIsLoading(true);
     
@@ -175,52 +172,7 @@ const Signup: React.FC = () => {
             </div>
           </div>
 
-          <div className="form-group">
-            <label className="checkbox-container">
-              <input
-                type="checkbox"
-                name="agreeTerms"
-                checked={formData.agreeTerms}
-                onChange={handleInputChange}
-                required
-              />
-              <span className="checkmark"></span>
-              <span className="checkbox-text">
-                이용약관에 동의합니다 (필수)
-              </span>
-            </label>
-          </div>
-
-          <div className="form-group">
-            <label className="checkbox-container">
-              <input
-                type="checkbox"
-                name="agreePrivacy"
-                checked={formData.agreePrivacy}
-                onChange={handleInputChange}
-                required
-              />
-              <span className="checkmark"></span>
-              <span className="checkbox-text">
-                <Link to="/privacy" className="terms-link">개인정보처리방침</Link>에 동의합니다 (필수)
-              </span>
-            </label>
-          </div>
-
-          <div className="form-group">
-            <label className="checkbox-container">
-              <input
-                type="checkbox"
-                name="agreeMarketing"
-                checked={formData.agreeMarketing}
-                onChange={handleInputChange}
-              />
-              <span className="checkmark"></span>
-              <span className="checkbox-text">
-                마케팅 정보 수신에 동의합니다 (선택)
-              </span>
-            </label>
-          </div>
+          
 
           <button type="submit" className="auth-btn primary" disabled={isLoading}>
             {isLoading ? '회원가입 중...' : '회원가입'}

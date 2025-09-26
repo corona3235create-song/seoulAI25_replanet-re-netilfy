@@ -2640,3 +2640,159 @@ Updated challenge: 자전거 출퇴근 챌린지
 Updated challenge: 도보 생활 챌린지
 Updated challenge: 친환경 이동 30일
 Admin user 'admin' already exists.
+INFO:     Started server process [440228]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[알림] AWS Bedrock 클라이언트가 성공적으로 초기화되었습니다.
+DEBUG: Including mobility.router
+Admin user 'admin' already exists.
+Updated challenge: 대중교통 이용 챌린지
+Updated challenge: 자전거 출퇴근 챌린지
+Updated challenge: 도보 생활 챌린지
+Updated challenge: 친환경 이동 30일
+Admin user 'admin' already exists.
+INFO:     210.94.192.173:52098 - "OPTIONS /api/credits/balance HTTP/1.1" 400 Bad Request
+INFO:     210.94.192.173:64598 - "OPTIONS /auth/login HTTP/1.1" 400 Bad Request
+INFO:     210.94.192.173:64812 - "OPTIONS /auth/register HTTP/1.1" 400 Bad Request
+INFO:     210.94.192.173:61085 - "OPTIONS /api/credits/balance HTTP/1.1" 400 Bad Request
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [440228]
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/bin/uvicorn", line 7, in <module>
+    sys.exit(main())
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/click/core.py", line 1161, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/click/core.py", line 1082, in main
+    rv = self.invoke(ctx)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/click/core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/click/core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/uvicorn/main.py", line 423, in main
+    run(
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/uvicorn/main.py", line 593, in run
+    server.run()
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/uvicorn/server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/uvicorn/_compat.py", line 53, in asyncio_run
+    return loop.run_until_complete(main)
+  File "/usr/lib64/python3.9/asyncio/base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/uvicorn/server.py", line 71, in serve
+    await self._serve(sockets)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/uvicorn/server.py", line 78, in _serve
+    config.load()
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/uvicorn/config.py", line 438, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/uvicorn/importer.py", line 22, in import_from_string
+    raise exc from None
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib64/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/main.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/bin/uvicorn", line 7, in <module>
+    sys.exit(main())
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/click/core.py", line 1161, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/click/core.py", line 1082, in main
+    rv = self.invoke(ctx)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/click/core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/click/core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/uvicorn/main.py", line 423, in main
+    run(
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/uvicorn/main.py", line 593, in run
+    server.run()
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/uvicorn/server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/uvicorn/_compat.py", line 53, in asyncio_run
+    return loop.run_until_complete(main)
+  File "/usr/lib64/python3.9/asyncio/base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/uvicorn/server.py", line 71, in serve
+    await self._serve(sockets)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/uvicorn/server.py", line 78, in _serve
+    config.load()
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/uvicorn/config.py", line 438, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/uvicorn/importer.py", line 22, in import_from_string
+    raise exc from None
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib64/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/main.py", line 5, in <module>
+    from dotenv import load_dotenv
+ModuleNotFoundError: No module named 'dotenv'
+Traceback (most recent call last):
+  File "/home/ec2-user/.local/bin/uvicorn", line 7, in <module>
+    sys.exit(main())
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/click/core.py", line 1161, in __call__
+    return self.main(*args, **kwargs)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/click/core.py", line 1082, in main
+    rv = self.invoke(ctx)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/click/core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/click/core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/uvicorn/main.py", line 423, in main
+    run(
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/uvicorn/main.py", line 593, in run
+    server.run()
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/uvicorn/server.py", line 67, in run
+    return asyncio_run(self.serve(sockets=sockets), loop_factory=self.config.get_loop_factory())
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/uvicorn/_compat.py", line 53, in asyncio_run
+    return loop.run_until_complete(main)
+  File "/usr/lib64/python3.9/asyncio/base_events.py", line 647, in run_until_complete
+    return future.result()
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/uvicorn/server.py", line 71, in serve
+    await self._serve(sockets)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/uvicorn/server.py", line 78, in _serve
+    config.load()
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/uvicorn/config.py", line 438, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/uvicorn/importer.py", line 22, in import_from_string
+    raise exc from None
+  File "/home/ec2-user/.local/lib/python3.9/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/lib64/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/main.py", line 10, in <module>
+    from .database import init_db, SessionLocal
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/database.py", line 1, in <module>
+    from sqlalchemy import create_engine
+ModuleNotFoundError: No module named 'sqlalchemy'
+INFO:     Started server process [452123]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started server process [10320]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
