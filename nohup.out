@@ -1,0 +1,2642 @@
+/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/pydantic/_internal/_config.py:318: UserWarning: Valid config keys have changed in V2:
+* 'orm_mode' has been renamed to 'from_attributes'
+  warnings.warn(message, UserWarning)
+INFO:     Started server process [411252]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+ INFO  Accepting connections at http://localhost:37799
+[알림] AWS Bedrock 클라이언트가 성공적으로 초기화되었습니다.
+DEBUG: Including mobility.router
+Admin user 'admin' already exists.
+Updated challenge: 대중교통 이용 챌린지
+Updated challenge: 자전거 출퇴근 챌린지
+Updated challenge: 도보 생활 챌린지
+Updated challenge: 친환경 이동 30일
+Admin user 'admin' already exists.
+INFO:     210.94.222.124:55072 - "OPTIONS /auth/login HTTP/1.1" 200 OK
+INFO:     210.94.222.124:55072 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     210.94.222.124:55072 - "OPTIONS /groups/ HTTP/1.1" 200 OK
+INFO:     210.94.222.124:56751 - "GET /groups/ HTTP/1.1" 200 OK
+INFO:     210.94.222.124:50509 - "OPTIONS /api/credits/balance HTTP/1.1" 200 OK
+INFO:     210.94.222.124:50509 - "OPTIONS /api/credits/balance HTTP/1.1" 200 OK
+INFO:     210.94.222.124:51902 - "OPTIONS /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 2 calculated total_points: 170755
+INFO:     210.94.222.124:54981 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     210.94.222.124:50461 - "GET /groups/ HTTP/1.1" 200 OK
+INFO:     210.94.222.124:51902 - "OPTIONS /api/credits/garden/1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 2 calculated total_points: 170755
+INFO:     210.94.222.124:54981 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     210.94.222.124:51902 - "GET /api/credits/garden/1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 2 calculated total_points: 170755
+INFO:     210.94.222.124:54981 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     210.94.222.124:50509 - "OPTIONS /api/credits/mobility/1?limit=1 HTTP/1.1" 200 OK
+INFO:     210.94.222.124:51902 - "GET /api/credits/garden/1 HTTP/1.1" 200 OK
+INFO:     210.94.222.124:54981 - "OPTIONS /api/credits/garden/2 HTTP/1.1" 200 OK
+INFO:     210.94.222.124:50509 - "GET /api/credits/mobility/1?limit=1 HTTP/1.1" 200 OK
+INFO:     210.94.222.124:51902 - "GET /api/credits/garden/2 HTTP/1.1" 200 OK
+INFO:     210.94.222.124:50509 - "GET /api/credits/mobility/1?limit=1 HTTP/1.1" 200 OK
+INFO:     210.94.222.124:51902 - "OPTIONS /api/credits/mobility/2?limit=1 HTTP/1.1" 200 OK
+INFO:     210.94.222.124:51902 - "GET /api/credits/mobility/2?limit=1 HTTP/1.1" 200 OK
+INFO:     210.94.222.124:50509 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     210.94.222.124:50461 - "GET /groups/ HTTP/1.1" 200 OK
+INFO:     210.94.222.124:50509 - "OPTIONS /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     210.94.222.124:51902 - "OPTIONS /api/garden/objects HTTP/1.1" 200 OK
+INFO:     210.94.222.124:52682 - "OPTIONS /api/garden/objects HTTP/1.1" 200 OK
+INFO:     210.94.222.124:50509 - "OPTIONS /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     210.94.222.124:51902 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     210.94.222.124:52682 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     210.94.222.124:51902 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     210.94.222.124:50509 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     210.94.222.124:50509 - "OPTIONS /api/garden/update_position HTTP/1.1" 200 OK
+INFO:     210.94.222.124:51902 - "POST /api/garden/update_position HTTP/1.1" 200 OK
+INFO:     210.94.222.124:50509 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     210.94.222.124:51902 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     210.94.222.124:51902 - "POST /api/garden/update_position HTTP/1.1" 200 OK
+INFO:     210.94.222.124:51902 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     210.94.222.124:50509 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     210.94.222.124:50509 - "POST /api/garden/update_position HTTP/1.1" 200 OK
+INFO:     210.94.222.124:50509 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     210.94.222.124:51902 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     210.94.222.124:51902 - "POST /api/garden/update_position HTTP/1.1" 200 OK
+INFO:     210.94.222.124:50509 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     210.94.222.124:51902 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50380 - "OPTIONS /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50392 - "OPTIONS /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50402 - "OPTIONS /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50410 - "OPTIONS /groups/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50380 - "GET /api/credits/balance HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:50380 - "GET /api/credits/balance HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:50380 - "GET /api/credits/balance HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:50414 - "GET /groups/ HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:60638 - "OPTIONS /auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60638 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60662 - "GET /groups/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60648 - "OPTIONS /api/credits/garden/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60648 - "GET /api/credits/garden/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51672 - "OPTIONS /api/credits/garden/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51672 - "GET /api/credits/garden/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51672 - "GET /api/credits/garden/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51672 - "GET /api/credits/garden/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51672 - "GET /api/credits/garden/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51672 - "GET /api/credits/garden/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51672 - "GET /api/credits/garden/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51672 - "GET /api/credits/garden/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51672 - "GET /api/credits/garden/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51674 - "OPTIONS /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51690 - "OPTIONS /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51706 - "OPTIONS /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51714 - "OPTIONS /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51690 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51674 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51714 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51674 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51674 - "GET /api/credits/garden/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51674 - "GET /api/credits/garden/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51674 - "GET /api/credits/garden/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51674 - "GET /api/credits/garden/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51674 - "OPTIONS /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51714 - "OPTIONS /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51674 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51674 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:51714 - "OPTIONS /api/dashboard/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51674 - "OPTIONS /api/dashboard/ HTTP/1.1" 200 OK
+DEBUG: Dashboard total_saved_g for user 2: 1795229.421g (1795.229421kg)
+INFO:     127.0.0.1:51714 - "GET /api/dashboard/ HTTP/1.1" 200 OK
+DEBUG: Dashboard total_saved_g for user 2: 1795229.421g (1795.229421kg)
+INFO:     127.0.0.1:51714 - "GET /api/dashboard/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51674 - "OPTIONS /api/credits/mobility/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51714 - "OPTIONS /api/credits/history/2?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51674 - "GET /api/credits/history/2?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51714 - "GET /api/credits/mobility/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41098 - "OPTIONS /api/credits/mobility/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41100 - "OPTIONS /api/credits/history/2?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41098 - "GET /api/credits/mobility/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41100 - "GET /api/credits/history/2?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41100 - "GET /api/credits/mobility/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37196 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37212 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37212 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37196 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37228 - "OPTIONS /api/garden/update_position HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37228 - "POST /api/garden/update_position HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37228 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56200 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56200 - "POST /api/garden/update_position HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56200 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37228 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57972 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57974 - "GET /groups/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57972 - "GET /api/credits/garden/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57972 - "GET /api/credits/garden/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57972 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57972 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57990 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57972 - "OPTIONS /api/shop/items HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57990 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57972 - "GET /api/shop/items HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57994 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58008 - "OPTIONS /api/shop/items HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58010 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57994 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58008 - "GET /api/shop/items HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57972 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47750 - "OPTIONS /auth/register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47750 - "POST /auth/register HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47758 - "POST /auth/login HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 0
+INFO:     127.0.0.1:47758 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47758 - "OPTIONS /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47758 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51864 - "GET /groups/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47758 - "OPTIONS /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47758 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47758 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47758 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48750 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48750 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48750 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48750 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48750 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48750 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48750 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48750 - "OPTIONS /api/challenges HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48750 - "GET /api/challenges HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:48750 - "OPTIONS /api/challenges/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36964 - "OPTIONS /api/challenges HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48750 - "GET /api/challenges/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36964 - "GET /api/challenges HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:48750 - "OPTIONS /api/challenges/85/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36964 - "OPTIONS /api/challenges/90/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48750 - "OPTIONS /api/challenges/91/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36964 - "OPTIONS /api/challenges/92/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48750 - "OPTIONS /api/challenges/93/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36964 - "OPTIONS /api/challenges/94/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36980 - "OPTIONS /api/challenges/89/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36988 - "OPTIONS /api/challenges/86/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36996 - "OPTIONS /api/challenges/87/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37000 - "OPTIONS /api/challenges/88/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48750 - "GET /api/challenges/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36964 - "GET /api/challenges/85/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36980 - "GET /api/challenges/90/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36988 - "GET /api/challenges/91/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36996 - "GET /api/challenges/92/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37000 - "GET /api/challenges/93/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48750 - "GET /api/challenges/94/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36964 - "GET /api/challenges/89/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36980 - "GET /api/challenges/86/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36988 - "GET /api/challenges/87/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36996 - "GET /api/challenges/88/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37000 - "GET /api/challenges/85/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48750 - "GET /api/challenges/90/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36964 - "GET /api/challenges/91/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36980 - "GET /api/challenges/92/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36988 - "GET /api/challenges/93/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36996 - "GET /api/challenges/94/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37000 - "GET /api/challenges/89/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48750 - "GET /api/challenges/86/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36964 - "GET /api/challenges/87/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36980 - "GET /api/challenges/88/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36988 - "OPTIONS /api/achievements HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36980 - "OPTIONS /api/achievements HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36964 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:36988 - "GET /api/achievements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:36964 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:36988 - "GET /api/achievements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:48750 - "OPTIONS /api/achievements/ HTTP/1.1" 200 OK
+DEBUG: Dashboard total_saved_g for user 7: 0g (0.0kg)
+INFO:     127.0.0.1:36980 - "GET /api/dashboard/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36988 - "OPTIONS /api/achievements/ HTTP/1.1" 200 OK
+DEBUG: Dashboard total_saved_g for user 7: 0g (0.0kg)
+INFO:     127.0.0.1:36980 - "GET /api/dashboard/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48750 - "GET /api/achievements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48750 - "GET /api/achievements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55218 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55220 - "GET /groups/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48946 - "OPTIONS /chat/ HTTP/1.1" 200 OK
+
+사용자 질문: 안녕
+[1단계] 사용자의 질문 의도를 파악합니다...
+--- 최종 답변 ---
+안녕하세요!
+INFO:     127.0.0.1:48946 - "POST /chat/ HTTP/1.1" 200 OK
+
+사용자 질문: 나 오늘 자전거 타고 출퇴근했어~ 또 도전할 챌린지 하나만 추천해줘
+[1단계] 사용자의 질문 의도를 파악합니다...
+--- 최종 답변 ---
+죄송해요, 질문을 잘 이해하지 못했어요.
+INFO:     127.0.0.1:55506 - "POST /chat/ HTTP/1.1" 200 OK
+
+사용자 질문: AI챌린지 추천해줘
+[1단계] 사용자의 질문 의도를 파악합니다...
+[알림] AI 챌린지를 추천하고 생성합니다.
+DEBUG: Dashboard total_saved_g for user 7: 0g (0.0kg)
+--- 최종 답변 ---
+새로운 챌린지가 생성되고 참여가 완료되었습니다! 챌린지: '첫 걸음 챌린지'
+INFO:     127.0.0.1:51496 - "POST /chat/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60472 - "GET /api/challenges HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60472 - "GET /api/challenges HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60486 - "GET /api/challenges/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60472 - "OPTIONS /api/challenges/95/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60486 - "GET /api/challenges/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60486 - "GET /api/challenges/90/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60472 - "GET /api/challenges/89/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60486 - "GET /api/challenges/91/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60472 - "GET /api/challenges/92/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60496 - "GET /api/challenges/86/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60512 - "GET /api/challenges/85/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60534 - "GET /api/challenges/87/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60522 - "GET /api/challenges/88/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60486 - "GET /api/challenges/93/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60472 - "GET /api/challenges/94/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60496 - "GET /api/challenges/95/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60512 - "GET /api/challenges/90/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60534 - "GET /api/challenges/89/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60522 - "GET /api/challenges/91/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60486 - "GET /api/challenges/92/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60472 - "GET /api/challenges/86/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60496 - "GET /api/challenges/85/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60512 - "GET /api/challenges/87/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60534 - "GET /api/challenges/88/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60522 - "GET /api/challenges/93/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60486 - "GET /api/challenges/94/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60472 - "GET /api/challenges/95/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60496 - "GET /api/achievements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60496 - "GET /api/achievements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60472 - "GET /api/achievements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60472 - "GET /api/achievements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46478 - "GET /api/challenges HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:46478 - "GET /api/challenges HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:46480 - "GET /api/challenges/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46478 - "GET /api/challenges/85/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46480 - "GET /api/challenges/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46478 - "GET /api/challenges/90/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46480 - "GET /api/challenges/91/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46478 - "GET /api/challenges/92/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46480 - "GET /api/challenges/93/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46486 - "GET /api/challenges/86/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46488 - "GET /api/challenges/89/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46498 - "GET /api/challenges/87/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46504 - "GET /api/challenges/88/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46478 - "GET /api/challenges/94/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46480 - "GET /api/challenges/95/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46486 - "GET /api/challenges/85/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46488 - "GET /api/challenges/90/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46498 - "GET /api/challenges/91/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46504 - "GET /api/challenges/92/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46478 - "GET /api/challenges/93/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46480 - "GET /api/challenges/86/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46486 - "GET /api/challenges/89/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46488 - "GET /api/challenges/87/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46498 - "GET /api/challenges/88/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46504 - "GET /api/challenges/94/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46478 - "GET /api/challenges/95/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46480 - "GET /api/achievements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:46480 - "GET /api/achievements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:46478 - "GET /api/achievements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46478 - "GET /api/achievements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46828 - "POST /auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:46828 - "POST /auth/login HTTP/1.1" 401 Unauthorized
+INFO:     127.0.0.1:46828 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46828 - "GET /admin/users HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46828 - "GET /admin/users HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47184 - "GET /groups/ HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 1 calculated total_points: 9712
+INFO:     127.0.0.1:47198 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47198 - "OPTIONS /api/credits/garden/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47198 - "GET /api/credits/garden/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47198 - "OPTIONS /api/credits/mobility/1?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47198 - "GET /api/credits/mobility/1?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48722 - "OPTIONS /admin/add-mobility-log HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48722 - "POST /admin/add-mobility-log HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48730 - "POST /auth/login HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 170
+INFO:     127.0.0.1:48730 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48730 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48730 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60778 - "GET /groups/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48730 - "GET /api/challenges HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:48730 - "GET /api/challenges HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60790 - "GET /api/challenges/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48730 - "GET /api/challenges/85/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60790 - "GET /api/challenges/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48730 - "GET /api/challenges/90/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60790 - "GET /api/challenges/91/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48730 - "GET /api/challenges/92/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60790 - "GET /api/challenges/93/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60798 - "GET /api/challenges/86/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60814 - "GET /api/challenges/87/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60796 - "GET /api/challenges/89/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60816 - "GET /api/challenges/88/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48730 - "GET /api/challenges/94/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60790 - "GET /api/challenges/95/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60814 - "GET /api/challenges/90/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60796 - "GET /api/challenges/91/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60798 - "GET /api/challenges/85/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60816 - "GET /api/challenges/92/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48730 - "GET /api/challenges/93/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60790 - "GET /api/challenges/86/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60814 - "GET /api/challenges/87/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60796 - "GET /api/challenges/89/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60790 - "GET /api/achievements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60798 - "GET /api/challenges/88/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48730 - "GET /api/challenges/95/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60816 - "GET /api/challenges/94/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60790 - "GET /api/achievements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60816 - "GET /api/achievements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60790 - "GET /api/achievements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60790 - "OPTIONS /api/challenges/87/complete HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60816 - "POST /api/challenges/87/complete HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60816 - "GET /api/challenges HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:60816 - "GET /api/challenges/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48730 - "GET /api/challenges/88/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60790 - "GET /api/challenges/86/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60816 - "GET /api/challenges/85/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60798 - "GET /api/challenges/89/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48730 - "GET /api/challenges/94/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60798 - "GET /api/challenges/90/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60790 - "GET /api/challenges/95/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60816 - "GET /api/challenges/91/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49086 - "GET /api/challenges/93/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49096 - "GET /api/challenges/92/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49096 - "GET /api/achievements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:49096 - "GET /api/achievements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59144 - "OPTIONS /api/challenges/95/complete HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59144 - "POST /api/challenges/95/complete HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59144 - "GET /api/challenges HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:59144 - "GET /api/challenges/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59144 - "GET /api/challenges/85/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59148 - "GET /api/challenges/86/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59144 - "GET /api/challenges/92/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59148 - "GET /api/challenges/93/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59144 - "GET /api/challenges/94/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59154 - "GET /api/challenges/89/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59156 - "GET /api/challenges/91/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59164 - "GET /api/challenges/88/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59174 - "GET /api/challenges/90/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59174 - "GET /api/achievements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:59174 - "GET /api/achievements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59174 - "OPTIONS /api/credits/add HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59164 - "POST /api/credits/add HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47396 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:47396 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+DEBUG: Dashboard total_saved_g for user 7: 1700.000g (1.700kg)
+INFO:     127.0.0.1:47400 - "GET /api/dashboard/ HTTP/1.1" 200 OK
+DEBUG: Dashboard total_saved_g for user 7: 1700.000g (1.700kg)
+INFO:     127.0.0.1:47400 - "GET /api/dashboard/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47400 - "OPTIONS /api/credits/history/7?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47396 - "OPTIONS /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47400 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47396 - "GET /api/credits/history/7?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47406 - "OPTIONS /api/credits/history/7?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47408 - "OPTIONS /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47406 - "GET /api/credits/history/7?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47408 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58926 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33782 - "GET /api/credits/history/7?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:33782 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36296 - "POST /groups/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36296 - "GET /groups/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36298 - "OPTIONS /groups/5/challenges HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36308 - "OPTIONS /groups/5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36314 - "OPTIONS /groups/5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36316 - "OPTIONS /groups/5/challenges HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36296 - "GET /groups/5/challenges HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36296 - "GET /groups/5/challenges HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36320 - "GET /groups/5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36316 - "OPTIONS /groups/5/challenges/participations/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36320 - "GET /groups/5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36296 - "GET /groups/5/challenges/participations/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36296 - "GET /groups/5/challenges/participations/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52796 - "POST /groups/5/challenges HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52796 - "GET /groups/5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52796 - "GET /groups/5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52804 - "GET /groups/5/challenges HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52796 - "GET /groups/5/challenges/participations/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52804 - "GET /groups/5/challenges HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52804 - "GET /groups/5/challenges/participations/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59026 - "OPTIONS /groups/ranking?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59040 - "OPTIONS /groups/ranking?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59046 - "GET /groups/ranking?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59046 - "GET /groups/ranking?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39584 - "GET /groups/5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39578 - "GET /groups/5/challenges HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39584 - "GET /groups/5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39578 - "GET /groups/5/challenges HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39598 - "GET /groups/5/challenges/participations/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39598 - "GET /groups/5/challenges/participations/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38664 - "DELETE /groups/5 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38666 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38666 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 330
+INFO:     127.0.0.1:38666 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 330
+INFO:     127.0.0.1:38666 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 330
+INFO:     127.0.0.1:38666 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38678 - "GET /groups/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38666 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38694 - "GET /api/credits/garden/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38666 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38694 - "GET /api/credits/garden/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38702 - "GET /api/credits/mobility/1?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38702 - "GET /api/credits/mobility/1?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38702 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38702 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59314 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:59314 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+DEBUG: Dashboard total_saved_g for user 7: 1700.000g (1.700kg)
+INFO:     127.0.0.1:59322 - "GET /api/dashboard/ HTTP/1.1" 200 OK
+DEBUG: Dashboard total_saved_g for user 7: 1700.000g (1.700kg)
+INFO:     127.0.0.1:59322 - "GET /api/dashboard/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "OPTIONS /api/credits/garden/water HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 330
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 320
+INFO:     127.0.0.1:59322 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 320
+INFO:     127.0.0.1:59322 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51940 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51940 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51940 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51940 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 320
+INFO:     127.0.0.1:59322 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51940 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51940 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51940 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51940 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51940 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51940 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 320
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 310
+INFO:     127.0.0.1:51940 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 310
+INFO:     127.0.0.1:59322 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 310
+INFO:     127.0.0.1:51940 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 310
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 300
+INFO:     127.0.0.1:51940 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 300
+INFO:     127.0.0.1:51940 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 300
+INFO:     127.0.0.1:51952 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 300
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 290
+INFO:     127.0.0.1:51952 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 290
+INFO:     127.0.0.1:51952 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 290
+INFO:     127.0.0.1:51952 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 290
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 280
+INFO:     127.0.0.1:51952 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 280
+INFO:     127.0.0.1:51952 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 280
+INFO:     127.0.0.1:59322 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 280
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 270
+INFO:     127.0.0.1:38502 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 270
+INFO:     127.0.0.1:38502 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 270
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 260
+INFO:     127.0.0.1:38502 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 260
+INFO:     127.0.0.1:38502 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 260
+INFO:     127.0.0.1:38502 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 260
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 250
+INFO:     127.0.0.1:59322 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 250
+INFO:     127.0.0.1:38502 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 250
+INFO:     127.0.0.1:38502 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 250
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 240
+INFO:     127.0.0.1:38502 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 240
+INFO:     127.0.0.1:38502 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 240
+INFO:     127.0.0.1:38502 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 240
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 230
+INFO:     127.0.0.1:38502 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 230
+INFO:     127.0.0.1:38502 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 230
+INFO:     127.0.0.1:38502 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 230
+INFO:     127.0.0.1:59322 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51952 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 230
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 220
+INFO:     127.0.0.1:51952 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 220
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 210
+INFO:     127.0.0.1:51952 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "OPTIONS /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 210
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 200
+INFO:     127.0.0.1:51952 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 200
+INFO:     127.0.0.1:59322 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 200
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 190
+INFO:     127.0.0.1:51952 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 190
+INFO:     127.0.0.1:59322 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 190
+INFO:     127.0.0.1:59322 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 190
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 180
+INFO:     127.0.0.1:51952 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 180
+INFO:     127.0.0.1:59322 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 180
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 170
+INFO:     127.0.0.1:51952 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 170
+INFO:     127.0.0.1:59322 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 170
+INFO:     127.0.0.1:59322 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55686 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 170
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 160
+INFO:     127.0.0.1:51952 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55686 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 160
+INFO:     127.0.0.1:59322 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55686 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 160
+INFO:     127.0.0.1:59322 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 160
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 150
+INFO:     127.0.0.1:55696 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 150
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 140
+INFO:     127.0.0.1:51952 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55686 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 140
+INFO:     127.0.0.1:59322 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 140
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 130
+INFO:     127.0.0.1:55696 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55686 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 130
+INFO:     127.0.0.1:59322 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55686 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 130
+INFO:     127.0.0.1:59322 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 130
+INFO:     127.0.0.1:59322 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 130
+INFO:     127.0.0.1:59322 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 130
+INFO:     127.0.0.1:59322 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55686 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 130
+INFO:     127.0.0.1:59322 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 130
+INFO:     127.0.0.1:59322 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 130
+INFO:     127.0.0.1:59322 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 130
+INFO:     127.0.0.1:59322 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55686 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55686 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55686 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 130
+INFO:     127.0.0.1:59322 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59322 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 130
+INFO:     127.0.0.1:55686 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 130
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 120
+INFO:     127.0.0.1:55686 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 120
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 110
+INFO:     127.0.0.1:55686 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 110
+INFO:     127.0.0.1:59322 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 110
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 100
+INFO:     127.0.0.1:55686 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 100
+INFO:     127.0.0.1:59322 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 100
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 90
+INFO:     127.0.0.1:55686 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 90
+INFO:     127.0.0.1:59322 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 90
+INFO:     127.0.0.1:59322 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 90
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 80
+INFO:     127.0.0.1:55696 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 80
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 70
+INFO:     127.0.0.1:59322 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 70
+INFO:     127.0.0.1:55696 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 70
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 60
+INFO:     127.0.0.1:34532 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 60
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 50
+INFO:     127.0.0.1:59322 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 50
+INFO:     127.0.0.1:55696 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 50
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 40
+INFO:     127.0.0.1:59322 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 40
+INFO:     127.0.0.1:55696 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 40
+INFO:     127.0.0.1:55696 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 40
+INFO:     127.0.0.1:55696 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 40
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 30
+INFO:     127.0.0.1:34532 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 30
+INFO:     127.0.0.1:55696 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 30
+INFO:     127.0.0.1:55696 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 30
+INFO:     127.0.0.1:34532 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 30
+INFO:     127.0.0.1:34532 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 30
+INFO:     127.0.0.1:34532 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 30
+INFO:     127.0.0.1:34532 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 30
+INFO:     127.0.0.1:34532 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 30
+INFO:     127.0.0.1:34532 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 30
+INFO:     127.0.0.1:34532 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38502 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 30
+INFO:     127.0.0.1:34532 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 30
+INFO:     127.0.0.1:34532 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 30
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 20
+INFO:     127.0.0.1:55696 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 20
+INFO:     127.0.0.1:55696 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 20
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 10
+INFO:     127.0.0.1:40952 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 10
+INFO:     127.0.0.1:40952 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 10
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 0
+INFO:     127.0.0.1:55696 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 0
+INFO:     127.0.0.1:55696 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 0
+INFO:     127.0.0.1:55696 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 0
+INFO:     127.0.0.1:55696 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 0
+INFO:     127.0.0.1:55696 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/challenges HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/challenges HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:40952 - "GET /api/challenges/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/challenges/85/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40952 - "GET /api/challenges/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/challenges/89/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/challenges/90/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40952 - "GET /api/challenges/91/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/challenges/92/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40952 - "GET /api/challenges/93/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/challenges/94/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40964 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40968 - "GET /api/challenges/86/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40972 - "GET /api/challenges/88/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40952 - "GET /api/challenges/85/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/challenges/89/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/challenges/91/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40964 - "GET /api/challenges/90/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40968 - "GET /api/challenges/92/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40972 - "GET /api/challenges/93/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40952 - "GET /api/challenges/94/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/challenges/86/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40964 - "GET /api/challenges/88/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40968 - "GET /api/achievements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:55696 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40968 - "GET /api/achievements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:40964 - "GET /api/achievements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40964 - "GET /api/achievements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40964 - "OPTIONS /api/challenges/94/complete HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "POST /api/challenges/94/complete HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/challenges HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:34532 - "GET /api/challenges/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40968 - "GET /api/challenges/89/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40952 - "GET /api/challenges/90/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/challenges/88/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "GET /api/challenges/85/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40964 - "GET /api/challenges/86/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40972 - "GET /api/challenges/91/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40968 - "GET /api/challenges/92/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/challenges/93/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/achievements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:55696 - "GET /api/achievements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "POST /api/credits/add HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "OPTIONS /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40964 - "OPTIONS /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40972 - "OPTIONS /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34532 - "OPTIONS /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40968 - "GET /api/shop/items HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40972 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40968 - "GET /api/shop/items HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40972 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40972 - "OPTIONS /api/shop/buy HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "POST /api/shop/buy HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40972 - "GET /api/garden/objects HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 35
+INFO:     127.0.0.1:40972 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40972 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40972 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40972 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40972 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40972 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40972 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40972 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40972 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "OPTIONS /api/garden/place HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40972 - "POST /api/garden/place HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40972 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "POST /api/garden/update_position HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55696 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40972 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60604 - "OPTIONS /auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60604 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60604 - "OPTIONS /groups/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /admin/users HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60606 - "GET /admin/users HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 1 calculated total_points: 9712
+INFO:     127.0.0.1:60622 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60628 - "GET /groups/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60622 - "GET /api/credits/garden/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60622 - "GET /api/credits/mobility/1?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50420 - "OPTIONS /admin/grant-points HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50420 - "POST /admin/grant-points HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50420 - "POST /admin/add-mobility-log HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50424 - "POST /auth/login HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1735
+INFO:     127.0.0.1:50424 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50424 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50424 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53066 - "GET /groups/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41598 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41582 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41598 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41582 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41582 - "OPTIONS /api/garden/update_position HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41598 - "POST /api/garden/update_position HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41598 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41582 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41582 - "GET /api/challenges HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:41582 - "GET /api/challenges HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:41598 - "GET /api/challenges/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41582 - "GET /api/challenges/85/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41598 - "GET /api/challenges/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41598 - "GET /api/challenges/92/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41582 - "GET /api/challenges/91/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41598 - "GET /api/challenges/93/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41582 - "GET /api/challenges/85/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42880 - "GET /api/challenges/88/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42892 - "GET /api/challenges/86/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42898 - "GET /api/challenges/89/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42904 - "GET /api/challenges/90/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41598 - "GET /api/challenges/92/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41582 - "GET /api/challenges/91/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42880 - "GET /api/challenges/93/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42892 - "GET /api/challenges/88/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42898 - "GET /api/challenges/86/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42904 - "GET /api/challenges/89/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41598 - "GET /api/challenges/90/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41582 - "GET /api/achievements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:41582 - "GET /api/achievements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:41598 - "GET /api/achievements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41598 - "GET /api/achievements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41598 - "OPTIONS /api/challenges/86/complete HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41582 - "POST /api/challenges/86/complete HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41582 - "GET /api/challenges HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:41582 - "GET /api/challenges/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42892 - "GET /api/challenges/91/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42898 - "GET /api/challenges/90/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41582 - "GET /api/challenges/85/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42904 - "GET /api/challenges/89/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41598 - "GET /api/challenges/88/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42880 - "GET /api/challenges/92/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42904 - "GET /api/challenges/93/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42904 - "GET /api/achievements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:42904 - "GET /api/achievements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42904 - "OPTIONS /api/challenges/85/complete HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42880 - "POST /api/challenges/85/complete HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42880 - "GET /api/challenges HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:42880 - "GET /api/challenges/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42904 - "GET /api/challenges/89/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42892 - "GET /api/challenges/93/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42898 - "GET /api/challenges/92/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41582 - "GET /api/challenges/91/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41598 - "GET /api/challenges/90/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42880 - "GET /api/challenges/88/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42880 - "GET /api/achievements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:42880 - "GET /api/achievements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59058 - "OPTIONS /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59062 - "OPTIONS /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59062 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:59062 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:59058 - "OPTIONS /api/dashboard/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59062 - "OPTIONS /api/dashboard/ HTTP/1.1" 200 OK
+DEBUG: Dashboard total_saved_g for user 7: 18700.000g (18.700kg)
+INFO:     127.0.0.1:59058 - "GET /api/dashboard/ HTTP/1.1" 200 OK
+DEBUG: Dashboard total_saved_g for user 7: 18700.000g (18.700kg)
+INFO:     127.0.0.1:59058 - "GET /api/dashboard/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59062 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59058 - "GET /api/credits/history/7?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59062 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59058 - "GET /api/credits/history/7?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59058 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:59058 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+DEBUG: Dashboard total_saved_g for user 7: 18700.000g (18.700kg)
+INFO:     127.0.0.1:59062 - "GET /api/dashboard/ HTTP/1.1" 200 OK
+DEBUG: Dashboard total_saved_g for user 7: 18700.000g (18.700kg)
+INFO:     127.0.0.1:59062 - "GET /api/dashboard/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59062 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59062 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59062 - "GET /api/credits/history/7?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59062 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59062 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:59062 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+DEBUG: Dashboard total_saved_g for user 7: 18700.000g (18.700kg)
+INFO:     127.0.0.1:44652 - "GET /api/dashboard/ HTTP/1.1" 200 OK
+DEBUG: Dashboard total_saved_g for user 7: 18700.000g (18.700kg)
+INFO:     127.0.0.1:44652 - "GET /api/dashboard/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:44652 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+DEBUG: Dashboard total_saved_g for user 7: 18700.000g (18.700kg)
+INFO:     127.0.0.1:59240 - "GET /api/dashboard/ HTTP/1.1" 200 OK
+DEBUG: Dashboard total_saved_g for user 7: 18700.000g (18.700kg)
+INFO:     127.0.0.1:59240 - "GET /api/dashboard/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "OPTIONS /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "OPTIONS /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 2085
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 2075
+INFO:     127.0.0.1:44652 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 2075
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 2065
+INFO:     127.0.0.1:44652 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 2075
+INFO:     127.0.0.1:59240 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 2065
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 2055
+INFO:     127.0.0.1:44652 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "OPTIONS /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 2055
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 2045
+INFO:     127.0.0.1:59240 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 2045
+INFO:     127.0.0.1:45670 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 2045
+INFO:     127.0.0.1:45670 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 2045
+INFO:     127.0.0.1:45670 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 2045
+INFO:     127.0.0.1:45670 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45670 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45670 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 2045
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45670 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 2045
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45670 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 2045
+INFO:     127.0.0.1:45670 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 2045
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 2035
+INFO:     127.0.0.1:44652 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 2035
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 2025
+INFO:     127.0.0.1:45670 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 2025
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 2025
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 2015
+INFO:     127.0.0.1:59240 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 2015
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 2015
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 2005
+INFO:     127.0.0.1:45670 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 2005
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 2005
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 1995
+INFO:     127.0.0.1:59240 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1995
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45670 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1995
+INFO:     127.0.0.1:45670 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 1995
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 1985
+INFO:     127.0.0.1:45680 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 1985
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 1975
+INFO:     127.0.0.1:44652 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 1975
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 1965
+INFO:     127.0.0.1:45680 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1965
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 1965
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 1955
+INFO:     127.0.0.1:45694 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 1955
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 1945
+INFO:     127.0.0.1:45670 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1945
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 1945
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 1935
+INFO:     127.0.0.1:59240 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1935
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 1935
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 1925
+INFO:     127.0.0.1:59240 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1925
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 1925
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 1915
+INFO:     127.0.0.1:45670 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1915
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 1915
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 1905
+INFO:     127.0.0.1:45680 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45670 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1905
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 1905
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 1895
+INFO:     127.0.0.1:45680 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1895
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 1895
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 1885
+INFO:     127.0.0.1:45670 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1885
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 1885
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 1875
+INFO:     127.0.0.1:59240 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1875
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 1875
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 1865
+INFO:     127.0.0.1:45680 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1865
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 1865
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 1855
+INFO:     127.0.0.1:45680 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1855
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 1855
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 1845
+INFO:     127.0.0.1:45680 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1845
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 1845
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 1835
+INFO:     127.0.0.1:59240 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1835
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 1835
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 1825
+INFO:     127.0.0.1:45670 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1825
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1825
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 1825
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 1815
+INFO:     127.0.0.1:45670 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1815
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 1815
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 1805
+INFO:     127.0.0.1:45680 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45670 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1805
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 1805
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 1795
+INFO:     127.0.0.1:45680 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1795
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 1795
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 1785
+INFO:     127.0.0.1:45670 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1785
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 1785
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 1775
+INFO:     127.0.0.1:45670 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1775
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 1775
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 1765
+INFO:     127.0.0.1:59240 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1765
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45674 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1765
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1765
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 1765
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 1755
+INFO:     127.0.0.1:45674 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1755
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 1755
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 1745
+INFO:     127.0.0.1:45670 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1745
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 1745
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 1735
+INFO:     127.0.0.1:45674 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1735
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1735
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 1735
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 1725
+INFO:     127.0.0.1:45674 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59240 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1725
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 1725
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 1715
+INFO:     127.0.0.1:45670 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1715
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45670 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1715
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1715
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1715
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45670 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1715
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1715
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1715
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45670 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1715
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45670 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1715
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1715
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1715
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45670 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1715
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1715
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45670 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1715
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45670 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1715
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45670 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1715
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1715
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1715
+INFO:     127.0.0.1:45670 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45670 - "OPTIONS /api/shop/items HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "OPTIONS /api/shop/items HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45670 - "GET /api/shop/items HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45670 - "GET /api/shop/items HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1715
+INFO:     127.0.0.1:45680 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1715
+INFO:     127.0.0.1:46376 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1715
+INFO:     127.0.0.1:46392 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "POST /api/shop/buy HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1415
+INFO:     127.0.0.1:46392 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1415
+INFO:     127.0.0.1:46392 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "POST /api/shop/buy HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1115
+INFO:     127.0.0.1:46376 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1115
+INFO:     127.0.0.1:46376 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1115
+INFO:     127.0.0.1:46376 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1115
+INFO:     127.0.0.1:46376 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1115
+INFO:     127.0.0.1:46392 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1115
+INFO:     127.0.0.1:46376 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "POST /api/shop/buy HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1015
+INFO:     127.0.0.1:48092 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1015
+INFO:     127.0.0.1:48092 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1015
+INFO:     127.0.0.1:48092 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1015
+INFO:     127.0.0.1:48092 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "POST /api/shop/buy HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 965
+INFO:     127.0.0.1:48092 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45680 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 965
+INFO:     127.0.0.1:48092 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 965
+INFO:     127.0.0.1:48092 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 965
+INFO:     127.0.0.1:48092 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "POST /api/shop/buy HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 890
+INFO:     127.0.0.1:46392 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "POST /api/shop/buy HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 810
+INFO:     127.0.0.1:48092 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "POST /api/shop/buy HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 610
+INFO:     127.0.0.1:48092 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "POST /api/shop/buy HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 590
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "POST /api/shop/buy HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 565
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "POST /api/shop/buy HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 545
+INFO:     127.0.0.1:46376 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "POST /api/shop/buy HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 520
+INFO:     127.0.0.1:46392 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "POST /api/shop/buy HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 470
+INFO:     127.0.0.1:46376 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "POST /api/shop/buy HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 395
+INFO:     127.0.0.1:46376 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "POST /api/shop/buy HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 355
+INFO:     127.0.0.1:48092 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "POST /api/shop/buy HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 315
+INFO:     127.0.0.1:46392 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "POST /api/shop/buy HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 300
+INFO:     127.0.0.1:44652 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44652 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48092 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "POST /api/garden/place HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "POST /api/garden/place HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "POST /api/garden/place HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "POST /api/garden/place HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "POST /api/garden/place HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "POST /api/garden/place HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "POST /api/garden/place HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "POST /api/garden/place HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "POST /api/garden/place HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "POST /api/garden/place HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "POST /api/garden/place HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "POST /api/garden/place HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "POST /api/garden/place HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "POST /api/garden/place HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "POST /api/garden/place HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "POST /api/garden/place HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "POST /api/garden/update_position HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "POST /api/garden/update_position HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "POST /api/garden/update_position HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "POST /api/garden/update_position HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "POST /api/garden/update_position HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "POST /api/garden/update_position HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "POST /api/garden/update_position HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46392 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46376 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54094 - "POST /api/garden/update_position HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54094 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54102 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54102 - "POST /api/garden/update_position HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54102 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54094 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54094 - "POST /api/garden/update_position HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54094 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54102 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54102 - "POST /api/garden/update_position HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54102 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54094 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54094 - "POST /api/garden/update_position HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54094 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54102 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54102 - "POST /api/garden/update_position HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54102 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54094 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54094 - "POST /api/garden/update_position HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54094 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54102 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54102 - "POST /api/garden/update_position HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54102 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54094 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54094 - "POST /api/garden/update_position HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54094 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54102 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54102 - "POST /api/garden/update_position HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54094 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54102 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54102 - "POST /api/garden/update_position HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54094 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54102 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54102 - "POST /api/garden/update_position HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54094 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54102 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54102 - "POST /api/garden/update_position HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54102 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54094 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54094 - "POST /api/garden/update_position HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54094 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54102 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54102 - "POST /api/garden/update_position HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54102 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54094 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44808 - "POST /api/garden/update_position HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44808 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44810 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44810 - "POST /api/garden/update_position HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44810 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44808 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43526 - "OPTIONS /chat/ HTTP/1.1" 200 OK
+
+사용자 질문: 리플래닛 사용 가이드 알려줘
+[1단계] 사용자의 질문 의도를 파악합니다...
+
+[알림] Bedrock 지식 기반에서 '리플래닛 사용 가이드 알려줘'에 대한 정보를 검색합니다...
+--- 최종 답변 ---
+리플래닛(RePlanet)은 서울시의 탄소중립 목표 달성을 위해 개발된 AI 기반 친환경 실천 플랫폼입니다. AI 챗봇이 개인 맞춤형 탄소절감 방법을 제안하는 것이 핵심 특징입니다. 주요 기능으로는 AI 챗봇을 통한 대화형 서비스가 있습니다. "오늘 뭘 하면 좋을까?"와 같은 일일 추천, "이번 주 얼마나 절약했어?"와 같은 성과 확인, "에코마일리지가 뭐야?"와 같은 정책 질문, "새로운 챌린지 추천해줘"와 같은 챌린지 추천 기능을 제공합니다. 향후 음성 대화 기능도 제공될 예정입니다. GPS 기반 자동 활동 측정 기능이 있어 사용자의 이동을 자동으로 분석합니다. 또한 나만의 정원 가꾸기, 챌린지 참여하기, 크레딧 및 보상 시스템도 포함되어 있습니다. 소셜 기능으로는 연락처 연동, 초대 코드(예: "ABC123"), QR 코드 스캔을 통한 친구 추가가 가능합니다. 친구 활동에 응원 메시지를 보내거나 "오늘 5kg CO2 절감!"과 같은 성과를 공유할 수 있습니다. 직장별, 학교별, 동네별 랭킹 시스템도 제공됩니다. 문의사항은 support@replanet.seoul.go.kr 또는 help@replanet.seoul.go.kr로 연락할 수 있으며, 웹사이트는 https://replanet.seoul.go.kr/입니다.
+INFO:     127.0.0.1:43526 - "POST /chat/ HTTP/1.1" 200 OK
+
+사용자 질문: 서울시 에코 마일리지가 뭐야? 
+[1단계] 사용자의 질문 의도를 파악합니다...
+
+[알림] Bedrock 지식 기반에서 '서울시 에코 마일리지가 뭐야? '에 대한 정보를 검색합니다...
+--- 최종 답변 ---
+서울시 에코마일리지는 2009년부터 서울시가 실시해 온 자발적인 온실가스 감축 프로그램입니다. 건물과 승용차에서의 에너지 절약을 촉진하는 제도로, 시민들이 전기, 수도, 도시가스 등의 에너지를 절약하면 그에 대한 보상으로 마일리지를 지급하는 시스템입니다. 이 프로그램의 참여 대상은 개인회원(가정)과 단체회원(아파트, 기업, 소상공인 등)이며, 4~6개월 단위로 직전 2년간의 같은 기간 평균 사용량과 비교하여 에너지를 절약한 만큼 인센티브를 제공합니다. 시민들이 에너지 절약을 실천하면 경제적 혜택을 받을 수 있도록 설계된 제도입니다. 서울시 에코마일리지는 현재까지 누적 가입자 245만 명을 달성했으며, 온실가스 226만 톤을 감축하는 성과를 거두었습니다. 또한 서울시는 예산 문제를 해결하기 위해 카드사, 금융사, 제조사, 유통사와 협력하여 '에코마일리지 카드제'를 도입하여 운영하고 있습니다.
+INFO:     127.0.0.1:59088 - "POST /chat/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "OPTIONS /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46556 - "OPTIONS /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46556 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46556 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46556 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46556 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:46556 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+DEBUG: Dashboard total_saved_g for user 7: 18700.000g (18.700kg)
+INFO:     127.0.0.1:56940 - "GET /api/dashboard/ HTTP/1.1" 200 OK
+DEBUG: Dashboard total_saved_g for user 7: 18700.000g (18.700kg)
+INFO:     127.0.0.1:56940 - "GET /api/dashboard/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "OPTIONS /api/challenges HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46556 - "OPTIONS /api/challenges HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46556 - "GET /api/challenges HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:46556 - "GET /api/challenges HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:56940 - "OPTIONS /api/challenges/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46556 - "OPTIONS /api/challenges/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "GET /api/challenges/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "OPTIONS /api/challenges/88/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46556 - "GET /api/challenges/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "OPTIONS /api/challenges/93/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46556 - "GET /api/challenges/88/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "OPTIONS /api/challenges/89/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46556 - "OPTIONS /api/challenges/90/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57922 - "OPTIONS /api/challenges/92/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57924 - "OPTIONS /api/challenges/89/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "OPTIONS /api/challenges/91/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46556 - "OPTIONS /api/challenges/92/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57926 - "OPTIONS /api/challenges/90/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57942 - "OPTIONS /api/challenges/91/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57922 - "OPTIONS /api/challenges/93/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57924 - "GET /api/challenges/93/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56940 - "GET /api/challenges/88/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57926 - "GET /api/challenges/90/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46556 - "GET /api/challenges/89/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57942 - "GET /api/challenges/92/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57922 - "GET /api/challenges/91/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57924 - "GET /api/challenges/93/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57926 - "GET /api/challenges/89/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46556 - "GET /api/challenges/90/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57942 - "GET /api/challenges/92/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57922 - "GET /api/challenges/91/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57942 - "OPTIONS /api/achievements HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57922 - "OPTIONS /api/achievements HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57942 - "GET /api/achievements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:57942 - "GET /api/achievements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:57922 - "OPTIONS /api/achievements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46556 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57942 - "OPTIONS /api/achievements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57922 - "GET /api/achievements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46556 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57922 - "GET /api/achievements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57922 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:57922 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+DEBUG: Dashboard total_saved_g for user 7: 18700.000g (18.700kg)
+INFO:     127.0.0.1:46556 - "GET /api/dashboard/ HTTP/1.1" 200 OK
+DEBUG: Dashboard total_saved_g for user 7: 18700.000g (18.700kg)
+INFO:     127.0.0.1:46556 - "GET /api/dashboard/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46556 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46556 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46556 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52220 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52222 - "OPTIONS /api/credits/history/7?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52222 - "GET /api/credits/history/7?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52220 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52220 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1300
+INFO:     127.0.0.1:52220 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52222 - "OPTIONS /api/credits/garden/1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1300
+INFO:     127.0.0.1:52220 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52222 - "GET /api/credits/garden/1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1300
+INFO:     127.0.0.1:52220 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52228 - "GET /groups/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52222 - "GET /api/credits/garden/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52220 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52222 - "OPTIONS /api/credits/mobility/1?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52220 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52222 - "GET /api/credits/mobility/1?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52234 - "OPTIONS /api/credits/mobility/1?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52234 - "GET /api/credits/mobility/1?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42734 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42748 - "GET /groups/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42734 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42734 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42734 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42734 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42734 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:42734 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+DEBUG: Dashboard total_saved_g for user 7: 18700.000g (18.700kg)
+INFO:     127.0.0.1:48374 - "GET /api/dashboard/ HTTP/1.1" 200 OK
+DEBUG: Dashboard total_saved_g for user 7: 18700.000g (18.700kg)
+INFO:     127.0.0.1:48374 - "GET /api/dashboard/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48374 - "GET /api/challenges HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:48374 - "GET /api/challenges HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:42734 - "GET /api/challenges/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48374 - "GET /api/challenges/88/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42734 - "GET /api/challenges/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48374 - "GET /api/challenges/93/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42734 - "GET /api/challenges/88/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48374 - "GET /api/challenges/93/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48386 - "GET /api/challenges/90/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48390 - "GET /api/challenges/89/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48388 - "GET /api/challenges/91/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48396 - "GET /api/challenges/92/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48386 - "GET /api/challenges/90/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48390 - "GET /api/challenges/89/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48374 - "GET /api/achievements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:48388 - "GET /api/challenges/91/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48396 - "GET /api/challenges/92/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48374 - "GET /api/achievements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48396 - "GET /api/achievements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:48396 - "GET /api/achievements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57670 - "OPTIONS /api/challenges/89/complete HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57670 - "POST /api/challenges/89/complete HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57670 - "GET /api/challenges HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:57670 - "GET /api/challenges/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57670 - "GET /api/challenges/88/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57676 - "GET /api/challenges/90/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57690 - "GET /api/challenges/93/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57706 - "GET /api/challenges/92/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57720 - "GET /api/challenges/91/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57720 - "GET /api/achievements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:57720 - "GET /api/achievements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57720 - "OPTIONS /api/credits/add HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57706 - "POST /api/credits/add HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57706 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57706 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57706 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57706 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: water_garden - User 7 current balance BEFORE deduction: 1450
+DEBUG: water_garden - User 7 balance AFTER deduction and commit: 1440
+INFO:     127.0.0.1:48672 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1440
+INFO:     127.0.0.1:48672 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57706 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57706 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57706 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48672 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57706 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48672 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1440
+INFO:     127.0.0.1:48688 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48688 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48688 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50324 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50326 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50326 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50324 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50324 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:50324 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+DEBUG: Dashboard total_saved_g for user 7: 18700.000g (18.700kg)
+INFO:     127.0.0.1:50326 - "GET /api/dashboard/ HTTP/1.1" 200 OK
+DEBUG: Dashboard total_saved_g for user 7: 18700.000g (18.700kg)
+INFO:     127.0.0.1:50326 - "GET /api/dashboard/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60612 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60614 - "GET /groups/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36466 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36466 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43488 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43488 - "OPTIONS /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 1 calculated total_points: 19712
+INFO:     127.0.0.1:43488 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43488 - "GET /api/credits/garden/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43498 - "GET /groups/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43502 - "GET /admin/users HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43488 - "GET /api/credits/mobility/1?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43502 - "GET /admin/users HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35164 - "OPTIONS /admin/add-mobility-log HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35164 - "POST /admin/add-mobility-log HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35174 - "POST /admin/add-mobility-log HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50796 - "POST /admin/add-mobility-log HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40056 - "OPTIONS /auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40056 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40056 - "OPTIONS /groups/ HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1610
+INFO:     127.0.0.1:40070 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40070 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40070 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40072 - "GET /groups/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40070 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:40070 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+DEBUG: Dashboard total_saved_g for user 7: 20400.000g (20.400kg)
+INFO:     127.0.0.1:40056 - "GET /api/dashboard/ HTTP/1.1" 200 OK
+DEBUG: Dashboard total_saved_g for user 7: 20400.000g (20.400kg)
+INFO:     127.0.0.1:40056 - "GET /api/dashboard/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35234 - "GET /api/credits/history/7?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35236 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35234 - "GET /api/credits/history/7?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35236 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35236 - "GET /api/credits/history/7?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35238 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35238 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35238 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35238 - "OPTIONS /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35238 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:35238 - "OPTIONS /api/dashboard/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34474 - "OPTIONS /api/dashboard HTTP/1.1" 200 OK
+DEBUG: Dashboard total_saved_g for user 7: 20400.000g (20.400kg)
+INFO:     127.0.0.1:35238 - "GET /api/dashboard/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34474 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+DEBUG: Dashboard total_saved_g for user 7: 20400.000g (20.400kg)
+INFO:     127.0.0.1:34474 - "GET /api/dashboard/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35040 - "POST /auth/login HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 2 calculated total_points: 180755
+INFO:     127.0.0.1:35040 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35040 - "OPTIONS /api/credits/garden/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35040 - "GET /api/credits/garden/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35046 - "GET /groups/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35040 - "OPTIONS /api/credits/mobility/2?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35040 - "GET /api/credits/mobility/2?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35040 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:35040 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+DEBUG: Dashboard total_saved_g for user 2: 1795229.421g (1795.229421kg)
+INFO:     127.0.0.1:35048 - "GET /api/dashboard/ HTTP/1.1" 200 OK
+DEBUG: Dashboard total_saved_g for user 2: 1795229.421g (1795.229421kg)
+INFO:     127.0.0.1:35048 - "GET /api/dashboard/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37472 - "OPTIONS /api/credits/history/2?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37476 - "OPTIONS /api/credits/history/2?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37486 - "OPTIONS /api/credits/mobility/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37502 - "OPTIONS /api/credits/mobility/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37472 - "GET /api/credits/history/2?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37486 - "GET /api/credits/mobility/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37502 - "GET /api/credits/history/2?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37472 - "GET /api/credits/mobility/2 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37472 - "GET /api/credits/history/2?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54226 - "POST /auth/login HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54226 - "GET /admin/users HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54226 - "GET /admin/users HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54230 - "GET /groups/ HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 1 calculated total_points: 19712
+INFO:     127.0.0.1:54232 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54232 - "GET /api/credits/garden/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54232 - "GET /api/credits/mobility/1?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54232 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:54232 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+DEBUG: Dashboard total_saved_g for user 1: 97135.000g (97.135kg)
+INFO:     127.0.0.1:54226 - "GET /api/dashboard/ HTTP/1.1" 200 OK
+DEBUG: Dashboard total_saved_g for user 1: 97135.000g (97.135kg)
+INFO:     127.0.0.1:54226 - "GET /api/dashboard/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44798 - "GET /api/credits/garden/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44798 - "GET /api/credits/garden/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44798 - "GET /api/credits/garden/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44798 - "GET /api/credits/garden/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44798 - "OPTIONS /api/credits/garden/water HTTP/1.1" 200 OK
+DEBUG: water_garden - User 1 current balance BEFORE deduction: 19712
+DEBUG: water_garden - User 1 balance AFTER deduction and commit: 19702
+INFO:     127.0.0.1:44798 - "POST /api/credits/garden/water HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 1 calculated total_points: 19702
+INFO:     127.0.0.1:44798 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37550 - "GET /api/credits/garden/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37550 - "GET /api/credits/garden/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37550 - "GET /api/credits/mobility/1?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37550 - "GET /api/credits/garden/1 HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 1 calculated total_points: 19702
+INFO:     127.0.0.1:44798 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37550 - "GET /api/credits/garden/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37550 - "GET /api/credits/garden/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37550 - "GET /api/credits/garden/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37550 - "GET /api/credits/mobility/1?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37550 - "GET /api/credits/garden/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37550 - "GET /api/credits/garden/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48252 - "POST /auth/login HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1610
+INFO:     127.0.0.1:48252 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48252 - "OPTIONS /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48252 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48266 - "GET /groups/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48252 - "OPTIONS /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48252 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48252 - "OPTIONS /api/shop/items HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48252 - "GET /api/shop/items HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48280 - "OPTIONS /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48282 - "OPTIONS /api/shop/items HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48294 - "OPTIONS /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48308 - "OPTIONS /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48314 - "OPTIONS /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48280 - "GET /api/shop/items HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48282 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48294 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48282 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48294 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48294 - "OPTIONS /api/shop/buy HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48282 - "POST /api/shop/buy HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48294 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48282 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1510
+INFO:     127.0.0.1:48282 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48282 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48282 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48294 - "POST /api/shop/buy HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48282 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48294 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 1210
+INFO:     127.0.0.1:48294 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48294 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48282 - "POST /api/shop/buy HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48294 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48282 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48280 - "GET /api/garden/objects HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 910
+INFO:     127.0.0.1:48280 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48280 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48280 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48282 - "POST /api/shop/buy HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48280 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48282 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 610
+INFO:     127.0.0.1:48282 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48282 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48282 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48282 - "GET /api/challenges HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:48282 - "GET /api/challenges HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:48280 - "GET /api/challenges/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48282 - "GET /api/challenges/88/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48294 - "GET /api/challenges/90/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48280 - "GET /api/challenges/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48280 - "GET /api/challenges/88/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48294 - "GET /api/challenges/90/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47518 - "GET /api/challenges/91/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47530 - "GET /api/challenges/93/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47546 - "GET /api/challenges/92/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47518 - "GET /api/challenges/91/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47530 - "GET /api/challenges/93/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48294 - "GET /api/achievements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:47546 - "GET /api/challenges/92/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48294 - "GET /api/achievements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47546 - "GET /api/achievements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:47546 - "GET /api/achievements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47546 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47546 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47546 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+
+사용자 질문: 버블 정렬 짜줘
+[1단계] 사용자의 질문 의도를 파악합니다...
+--- 최종 답변 ---
+안녕하세요!
+INFO:     127.0.0.1:36336 - "POST /chat/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43618 - "GET /api/challenges HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:43618 - "GET /api/challenges HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:43624 - "GET /api/challenges/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43618 - "GET /api/challenges/88/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43624 - "GET /api/challenges/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43624 - "GET /api/challenges/88/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43636 - "GET /api/challenges/90/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43638 - "GET /api/challenges/91/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43648 - "GET /api/challenges/92/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43650 - "GET /api/challenges/93/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43636 - "GET /api/challenges/90/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43638 - "GET /api/challenges/91/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43648 - "GET /api/challenges/92/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43624 - "GET /api/achievements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:43650 - "GET /api/challenges/93/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43624 - "GET /api/achievements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43650 - "GET /api/achievements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:43650 - "GET /api/achievements/ HTTP/1.1" 200 OK
+
+사용자 질문: 버블 정렬 C언어로 코딩해줘
+[1단계] 사용자의 질문 의도를 파악합니다...
+--- 최종 답변 ---
+안녕하세요!
+INFO:     127.0.0.1:44338 - "POST /chat/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41436 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41436 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49596 - "OPTIONS /chat/ HTTP/1.1" 200 OK
+
+사용자 질문: 내 포인트 알려줘
+[1단계] 사용자의 질문 의도를 파악합니다...
+[알림] DB에서 사용자(id:7) 크레딧 잔액을 조회합니다.
+--- 최종 답변 ---
+확인해 보니, 현재 **610 C**를 모으셨네요! 💰
+INFO:     127.0.0.1:49596 - "POST /chat/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49610 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49610 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49610 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+
+사용자 질문: 챌린지 진행상황 알려줘
+[1단계] 사용자의 질문 의도를 파악합니다...
+[알림] DB에서 사용자(id:7) 챌린지 진행 상황을 조회합니다.
+INFO:     127.0.0.1:54626 - "POST /chat/ HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/uvicorn/protocols/http/httptools_impl.py", line 426, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/fastapi/applications.py", line 1106, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/middleware/cors.py", line 91, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/middleware/cors.py", line 146, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/fastapi/routing.py", line 274, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/bedrock_logic.py", line 293, in chatbot_endpoint
+    final_answer = invoke_llm("You are a helpful AI assistant...", router_decision.get("user_intent", user_query))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/bedrock_logic.py", line 232, in _get_user_challenge_progress
+    else: raise ValueError("No JSON object found")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/bedrock_logic.py", line 233, in <listcomp>
+    except Exception as e:
+             ^^^^^^^^^^^^^^
+AttributeError: 'ChallengeMember' object has no attribute 'challenge'
+INFO:     127.0.0.1:46010 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46010 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46010 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46010 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+
+사용자 질문: 내가 절약한 탄소 절감량 알려줘
+[1단계] 사용자의 질문 의도를 파악합니다...
+[알림] DB에서 사용자(id:7) 탄소 절감량을 조회합니다.
+INFO:     127.0.0.1:50198 - "POST /chat/ HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/uvicorn/protocols/http/httptools_impl.py", line 426, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/fastapi/applications.py", line 1106, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/middleware/cors.py", line 91, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/middleware/cors.py", line 146, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/fastapi/routing.py", line 274, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/bedrock_logic.py", line 289, in chatbot_endpoint
+    elif action == "recommend_challenge":
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/bedrock_logic.py", line 212, in _get_user_carbon_data
+    user_id = request.user_id
+                              
+AttributeError: type object 'MobilityLog' has no attribute 'saved_co2_g'
+INFO:     127.0.0.1:39912 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39928 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39912 - "GET /api/garden/objects HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39928 - "GET /api/garden/inventory HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39930 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:39930 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+
+사용자 질문: 내 탄소 절감량 알려줘
+[1단계] 사용자의 질문 의도를 파악합니다...
+[알림] DB에서 사용자(id:7) 탄소 절감량을 조회합니다.
+INFO:     127.0.0.1:39930 - "POST /chat/ HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/uvicorn/protocols/http/httptools_impl.py", line 426, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/fastapi/applications.py", line 1106, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/middleware/cors.py", line 91, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/middleware/cors.py", line 146, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/fastapi/routing.py", line 274, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/bedrock_logic.py", line 289, in chatbot_endpoint
+    elif action == "recommend_challenge":
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/bedrock_logic.py", line 212, in _get_user_carbon_data
+    user_id = request.user_id
+                              
+AttributeError: type object 'MobilityLog' has no attribute 'saved_co2_g'
+
+사용자 질문: 탄소 절감량 알려줘
+[1단계] 사용자의 질문 의도를 파악합니다...
+[알림] DB에서 사용자(id:7) 탄소 절감량을 조회합니다.
+INFO:     127.0.0.1:41902 - "POST /chat/ HTTP/1.1" 500 Internal Server Error
+ERROR:    Exception in ASGI application
+Traceback (most recent call last):
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/uvicorn/protocols/http/httptools_impl.py", line 426, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/fastapi/applications.py", line 1106, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/middleware/cors.py", line 91, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/middleware/cors.py", line 146, in simple_response
+    await self.app(scope, receive, send)
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/fastapi/routing.py", line 274, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/venv/lib64/python3.11/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/bedrock_logic.py", line 289, in chatbot_endpoint
+    elif action == "recommend_challenge":
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/ec2-user/replanet_finished/replanet_v1313123/backend/bedrock_logic.py", line 212, in _get_user_carbon_data
+    user_id = request.user_id
+                              
+AttributeError: type object 'MobilityLog' has no attribute 'saved_co2_g'
+INFO:     127.0.0.1:34858 - "GET /api/challenges HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:34858 - "GET /api/challenges HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:34866 - "GET /api/challenges/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34858 - "GET /api/challenges/88/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34866 - "GET /api/challenges/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34866 - "GET /api/challenges/88/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34882 - "GET /api/challenges/90/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34898 - "GET /api/challenges/93/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34912 - "GET /api/challenges/91/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34922 - "GET /api/challenges/92/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34882 - "GET /api/challenges/90/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34898 - "GET /api/challenges/93/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34912 - "GET /api/challenges/91/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34866 - "GET /api/achievements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:34922 - "GET /api/challenges/92/progress HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34866 - "GET /api/achievements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34922 - "GET /api/achievements HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:34922 - "GET /api/achievements/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48362 - "OPTIONS /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48376 - "OPTIONS /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48376 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48376 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59818 - "OPTIONS /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59822 - "OPTIONS /api/dashboard HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59832 - "OPTIONS /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59818 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+DEBUG: get_credit_balance - User 7 calculated total_points: 610
+INFO:     127.0.0.1:59832 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59818 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:59822 - "OPTIONS /api/dashboard/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59832 - "OPTIONS /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: Dashboard total_saved_g for user 7: 20400.000g (20.400kg)
+INFO:     127.0.0.1:59818 - "GET /api/dashboard/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59832 - "GET /api/credits/garden/7 HTTP/1.1" 200 OK
+DEBUG: Dashboard total_saved_g for user 7: 20400.000g (20.400kg)
+INFO:     127.0.0.1:59818 - "GET /api/dashboard/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59832 - "OPTIONS /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59832 - "GET /api/credits/mobility/7?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42836 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+INFO:     127.0.0.1:42836 - "GET /api/dashboard HTTP/1.1" 307 Temporary Redirect
+DEBUG: Dashboard total_saved_g for user 7: 20400.000g (20.400kg)
+INFO:     127.0.0.1:42842 - "GET /api/dashboard/ HTTP/1.1" 200 OK
+DEBUG: Dashboard total_saved_g for user 7: 20400.000g (20.400kg)
+INFO:     127.0.0.1:42842 - "GET /api/dashboard/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42842 - "OPTIONS /api/credits/history/7?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42836 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42842 - "GET /api/credits/history/7?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42836 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42846 - "OPTIONS /api/credits/history/7?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42846 - "GET /api/credits/history/7?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42846 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42846 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47402 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47402 - "GET /api/credits/mobility/7 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59600 - "OPTIONS /api/credits/garden/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59616 - "OPTIONS /groups/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59624 - "OPTIONS /api/credits/garden/1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59600 - "OPTIONS /api/credits/mobility/1?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59624 - "OPTIONS /api/credits/mobility/1?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59600 - "GET /api/credits/mobility/1?limit=1 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59600 - "GET /api/credits/mobility/1?limit=1 HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [411252]
+INFO:     Started server process [416898]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+ INFO  Accepting connections at http://localhost:37961
+[알림] AWS Bedrock 클라이언트가 성공적으로 초기화되었습니다.
+DEBUG: Including mobility.router
+Admin user 'admin' already exists.
+Updated challenge: 대중교통 이용 챌린지
+Updated challenge: 자전거 출퇴근 챌린지
+Updated challenge: 도보 생활 챌린지
+Updated challenge: 친환경 이동 30일
+Admin user 'admin' already exists.
+INFO:     127.0.0.1:36046 - "OPTIONS /api/credits/mobility/7 HTTP/1.1" 400 Bad Request
+INFO:     127.0.0.1:36056 - "GET /groups/ HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 610
+INFO:     127.0.0.1:36042 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 610
+INFO:     127.0.0.1:36042 - "GET /api/credits/balance HTTP/1.1" 200 OK
+DEBUG: get_credit_balance - User 7 calculated total_points: 610
+INFO:     127.0.0.1:36042 - "GET /api/credits/balance HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [416898]
+INFO:     Started server process [433538]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [433538]
+[알림] AWS Bedrock 클라이언트가 성공적으로 초기화되었습니다.
+DEBUG: Including mobility.router
+Admin user 'admin' already exists.
+Updated challenge: 대중교통 이용 챌린지
+Updated challenge: 자전거 출퇴근 챌린지
+Updated challenge: 도보 생활 챌린지
+Updated challenge: 친환경 이동 30일
+Admin user 'admin' already exists.

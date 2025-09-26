@@ -1,0 +1,202 @@
+/* MobilityTrackingPage.css */
+
+.mobility-tracking-page {
+  padding: 20px;
+  background: linear-gradient(135deg, #f4f9ff 0%, #eef7ff 100%);
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+@media (min-width: 992px) {
+  .content-grid {
+    grid-template-columns: 400px 1fr;
+  }
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 8px 30px rgba(0, 87, 184, 0.08);
+  border: 1px solid #e9ecef;
+  display: flex;
+  flex-direction: column;
+}
+
+.card h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin: 0 0 20px 0;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #f1f3f5;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.current-activity-card h3::before {
+  content: '📡';
+}
+
+.recent-logs-card h3::before {
+  content: '📋';
+}
+
+/* Recent Logs List */
+.recent-logs-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 100%;
+  max-height: 450px; /* Set a max height for scrollability */
+  overflow-y: auto;
+  padding-right: 10px; /* Space for scrollbar */
+}
+
+.log-item {
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  border: 1px solid #e9ecef;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.log-item:hover {
+  background-color: #f1f3f5;
+  transform: translateX(5px);
+}
+
+.log-icon {
+  font-size: 2rem;
+  background-color: #e9ecef;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.log-details {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.log-mode {
+  font-weight: 600;
+  color: #34495e;
+}
+
+.log-distance {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+}
+
+.log-rewards {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+  text-align: right;
+}
+
+.log-co2 {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #e74c3c;
+  background-color: #fdeded;
+  padding: 3px 8px;
+  border-radius: 12px;
+}
+
+.log-points {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #27ae60;
+  background-color: #eafaf1;
+  padding: 3px 8px;
+  border-radius: 12px;
+}
+
+.log-time {
+  font-size: 0.85rem;
+  color: #7f8c8d;
+  width: 80px;
+  text-align: right;
+}
+
+.no-logs-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 20px;
+  color: #7f8c8d;
+  height: 100%;
+}
+
+.no-logs-icon {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  opacity: 0.7;
+}
+
+.no-logs-message p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 0 0 5px 0;
+}
+
+/* Loading Spinner */
+.loading-spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.loading-spinner div {
+  width: 12px;
+  height: 12px;
+  background-color: #1abc9c;
+  border-radius: 100%;
+  display: inline-block;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  margin: 0 4px;
+}
+
+.loading-spinner div:nth-child(1) {
+  animation-delay: -0.32s;
+}
+
+.loading-spinner div:nth-child(2) {
+  animation-delay: -0.16s;
+}
+
+@keyframes sk-bouncedelay {
+  0%, 80%, 100% { 
+    transform: scale(0);
+  } 40% { 
+    transform: scale(1.0);
+  }
+}
+
+.error-message {
+  color: #e74c3c;
+  text-align: center;
+  padding: 20px;
+  background-color: #fdeded;
+  border-radius: 8px;
+}
