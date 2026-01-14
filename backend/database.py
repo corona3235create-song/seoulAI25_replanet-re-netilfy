@@ -4,15 +4,10 @@ from sqlalchemy.orm import sessionmaker
 import os
 from dotenv import load_dotenv
 
-from .config import DB_HOST, DB_PORT, DB_USER, DB_PASS, DB_NAME
 
-DATABASE_URL = os.getenv(
-    "DATABASE_URL",
-    f"mysql+pymysql://{DB_USER}:{DB_PASS}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
-)
-# Fallback to SQLite if no MySQL env vars are set
-if not DB_USER or not DB_PASS or not DB_NAME:
-    DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./ecoooo.db")
+load_dotenv(os.path.join(os.path.dirname(__file__), "../.env"))
+
+DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./ecoooo.db")
 
 # SQLAlchemy 엔진 생성
 engine = create_engine(
@@ -38,7 +33,6 @@ def get_db():
 
 def init_db():
     """데이터베이스 테이블을 생성하고 초기 데이터를 시딩합니다."""
-    from .models import Base
     from .seed_admin_user import seed_admin_user
     from .seed_challenges import seed_challenges
     from .seed_garden_levels import seed_garden_levels

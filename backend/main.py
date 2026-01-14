@@ -5,12 +5,12 @@ import os
 from dotenv import load_dotenv
 
 # .env 파일 로드
-load_dotenv(os.path.join(os.path.dirname(__file__), ".env"))
+load_dotenv(os.path.join(os.path.dirname(__file__), "../.env"))
 
 from .database import init_db, SessionLocal
 from .routes import dashboard, credits, challenges, auth, achievements, users, admin, mobility, ai_challenge_router, groups, group_challenges, shop, garden
 from .seed_admin_user import seed_admin_user
-from .bedrock_logic import router as chat_router
+from .ai_logic import router as chat_router
 
 # FastAPI 앱 생성
 app = FastAPI(
@@ -21,7 +21,6 @@ app = FastAPI(
 
 # CORS 설정
 origins = [
-    "http://54.67.87.233:3000",
     "http://localhost:3000",
     "http://127.0.0.1:3000",
     # 추가적으로 허용할 프론트엔드 주소가 있다면 여기에 추가

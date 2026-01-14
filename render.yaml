@@ -1,0 +1,45 @@
+services:
+  # 1. FastAPI 백엔드 서비스 설정
+  - type: web
+    name: replanet-backend
+    env: python
+    region: oregon
+    plan: free
+    # 루트에서 backend 폴더로 이동하여 설치하도록 경로 설정
+    buildCommand: "pip install -r backend/requirements.txt"
+    # gunicorn을 사용하여 서버 실행
+    startCommand: "gunicorn -w 4 -k uvicorn.workers.UvicornWorker backend.main:app"
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: replanet-db # 생성할 데이터베이스 이름과 일치해야 함
+          property: internalDatabaseUrl
+      - key: SECRET_KEY
+        generateValue: true
+      - key: ALGORITHM
+        value: "HS256"
+      - key: PYTHON_VERSION
+        value: "3.11.4"
+
+  # 2. React 프론트엔드 정적 사이트 설정
+  - type: static
+    name: replanet-frontend
+    env: node
+    region: oregon
+    plan: free
+    # frontend 폴더로 이동하여 빌드 수행
+    buildCommand: "cd frontend && npm install && npm run build"
+    # 빌드 결과물이 생성되는 경로
+    staticPublishPath: "frontend/build"
+    envVars:
+      - key: REACT_APP_API_URL
+        fromService:
+          type: web
+          name: replanet-backend
+          property: url
+
+# 3. 데이터베이스 설정 (무료 PostgreSQL)
+databases:
+  - name: replanet-db
+    plan: free
+    region: oregon

@@ -1,7 +1,9 @@
 fastapi==0.104.1
 uvicorn[standard]==0.24.0
 sqlalchemy==2.0.23
-pymysql==1.1.0
+#pymysql==1.1.0
+psycopg2-binary
+gunicorn
 cryptography==41.0.7
 pydantic==2.5.0
 python-multipart==0.0.6
@@ -11,7 +13,7 @@ python-dotenv==1.0.0
 reportlab==4.0.7
 jinja2==3.1.2
 weasyprint==60.2
-boto3==1.34.0
+openai
 
 requests
 beautifulsoup4
