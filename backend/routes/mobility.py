@@ -5,10 +5,10 @@ from sqlalchemy.orm import Session
 from datetime import datetime
 from typing import Optional, List, Dict, Any
 
-from .. import schemas, models, database # Import database module
-from ..database import get_db # Import get_db function
-from ..dependencies import get_current_user # Assuming authentication is required
-from backend.services.mobility_service import MobilityService # NEW IMPORT
+import schemas, models, database # Import database module
+from database import get_db # Import get_db function
+from dependencies import get_current_user # Assuming authentication is required
+from services.mobility_service import MobilityService # NEW IMPORT
 
 router = APIRouter(
     prefix="/mobility",

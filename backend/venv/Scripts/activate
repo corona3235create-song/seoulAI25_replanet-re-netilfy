@@ -38,7 +38,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="C:\seoul_ai_replanet_portfolio\seoulAI25_replanet\backend\venv"
+VIRTUAL_ENV="C:\replanet-netlify\seoulAI25_replanet-re-netilfy\backend\venv"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

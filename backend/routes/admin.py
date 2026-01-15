@@ -2,8 +2,8 @@ from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from typing import List
 
-from .. import database, schemas, models
-from backend.services.mobility_service import MobilityService # NEW IMPORT
+import database, schemas, models
+from services.mobility_service import MobilityService # NEW IMPORT
 
 router = APIRouter(
     prefix="/admin",

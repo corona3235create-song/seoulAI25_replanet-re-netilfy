@@ -2,9 +2,9 @@ from sqlalchemy.orm import Session
 from sqlalchemy import func, case
 from datetime import datetime, timedelta
 
-from . import models, schemas
-from .models import User, Challenge, ChallengeMember, MobilityLog, CreditsLedger, GardenLevel, UserGarden, GardenWateringLog
-from .schemas import UserCreate, ChallengeCreate, UserContext
+import models, schemas
+from models import User, Challenge, ChallengeMember, MobilityLog, CreditsLedger, GardenLevel, UserGarden, GardenWateringLog
+from schemas import UserCreate, ChallengeCreate, UserContext
 
 # =========================
 # UserGroup

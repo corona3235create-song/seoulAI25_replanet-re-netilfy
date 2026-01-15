@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\seoul_ai_replanet_portfolio\seoulAI25_replanet\backend\venv
+set VIRTUAL_ENV=C:\replanet-netlify\seoulAI25_replanet-re-netilfy\backend\venv
 
 if not defined PROMPT set PROMPT=$P$G
 

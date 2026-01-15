@@ -3,8 +3,8 @@ import secrets
 from typing import Optional, List
 from sqlalchemy.orm import Session
 from sqlalchemy import and_, func
-from backend.models import Group, GroupMember, User, GroupRole
-from backend.schemas import GroupCreate
+from models import Group, GroupMember, User, GroupRole
+from schemas import GroupCreate
 
 class GroupService:
     @staticmethod

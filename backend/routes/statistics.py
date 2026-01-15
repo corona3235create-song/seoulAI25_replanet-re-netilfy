@@ -6,13 +6,13 @@ from typing import List, Optional
 from datetime import datetime, timedelta
 import json
 
-from backend.database import get_db
-from ..models import User, CreditsLedger, MobilityLog, UserGarden, GardenWateringLog
-from backend.schemas import (
+from database import get_db
+from models import User, CreditsLedger, MobilityLog, UserGarden, GardenWateringLog
+from schemas import (
     StatisticsOverview, RegionalStatistics, LeaderboardEntry, 
     FriendsComparison, UserRanking, PersonalCarbonFootprint
 )
-from backend.utils.public_data_api import public_data_api
+from utils.public_data_api import public_data_api
 
 router = APIRouter(prefix="/api/statistics", tags=["statistics"])
 

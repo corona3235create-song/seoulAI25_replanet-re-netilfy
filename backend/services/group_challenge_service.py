@@ -2,8 +2,8 @@
 from sqlalchemy.orm import Session
 from sqlalchemy import and_, func, text
 from decimal import Decimal
-from backend.models import GroupChallenge, GroupChallengeMember, GroupMember, GroupRole, ChallengeStatus
-from backend.schemas import GroupChallengeCreate
+from models import GroupChallenge, GroupChallengeMember, GroupMember, GroupRole, ChallengeStatus
+from schemas import GroupChallengeCreate
 from typing import List, Optional
 from datetime import datetime, date
 

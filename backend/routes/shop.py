@@ -3,10 +3,10 @@ from sqlalchemy.orm import Session
 from sqlalchemy import func
 from typing import List
 
-from .. import models, schemas, crud
-from ..database import get_db
-from ..dependencies import get_current_user
-from ..data.shop_data import SHOP_ITEMS
+import models, schemas, crud
+from database import get_db
+from dependencies import get_current_user
+from data.shop_data import SHOP_ITEMS
 
 router = APIRouter(
     prefix="/api/shop",

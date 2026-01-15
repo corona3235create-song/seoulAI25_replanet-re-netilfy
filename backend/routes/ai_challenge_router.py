@@ -4,10 +4,10 @@ from pydantic import BaseModel
 from typing import Optional
 from datetime import datetime, timedelta
 
-from backend.database import get_db
-from backend.dependencies import get_current_user
-from backend.models import User, Challenge, ChallengeMember, ChallengeCompletionType, TransportMode
-from backend import schemas
+from database import get_db
+from dependencies import get_current_user
+from models import User, Challenge, ChallengeMember, ChallengeCompletionType, TransportMode
+import schemas
 
 class AICallengeCreateRequest(BaseModel):
     title: str

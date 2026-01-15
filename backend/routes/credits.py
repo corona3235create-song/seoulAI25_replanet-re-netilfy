@@ -5,13 +5,13 @@ from typing import List, Optional
 from datetime import datetime, timedelta
 import json
 
-from backend.database import get_db
-from backend.models import User, CreditsLedger, MobilityLog, UserGarden, GardenWateringLog, GardenLevel
-from backend.schemas import (
+from database import get_db
+from models import User, CreditsLedger, MobilityLog, UserGarden, GardenWateringLog, GardenLevel
+from schemas import (
     CreditBalance, CreditTransaction, CreditHistory, 
     GardenStatus, WateringRequest, WateringResponse, AddPointsRequest
 )
-from backend.dependencies import get_current_user
+from dependencies import get_current_user
 
 router = APIRouter(prefix="/api/credits", tags=["credits"])
 

@@ -4,10 +4,10 @@ from sqlalchemy.orm import Session
 from pydantic import BaseModel
 from typing import Dict, Any
 from datetime import datetime
-from .. import database, models
-from ..dependencies import get_current_user
-from ..services.mobility_service import MobilityService
-from .. import schemas
+import database, models
+from dependencies import get_current_user
+from services.mobility_service import MobilityService
+import schemas
 
 router = APIRouter(prefix="/activity", tags=["activity"])
 

@@ -5,9 +5,9 @@ from sqlalchemy import text
 from typing import List
 from pydantic import BaseModel
 
-from .. import crud, models, schemas
-from ..database import get_db
-from ..dependencies import get_current_user
+import crud, models, schemas
+from database import get_db
+from dependencies import get_current_user
 
 # /api/challenges 경로로 설정
 router = APIRouter(

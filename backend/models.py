@@ -8,7 +8,7 @@ from sqlalchemy.dialects.mysql import JSON
 from sqlalchemy.orm import relationship
 from sqlalchemy.sql import func
 
-from .database import Base  # Declarative Base
+from database import Base  # Declarative Base
 
 
 # ---------------------------
@@ -85,7 +85,7 @@ class GoalType(str, enum.Enum):
 class UserGroup(Base):
     __tablename__ = "user_groups"
     
-    group_id = Column(BigInteger, primary_key=True, autoincrement=True)
+    group_id = Column(Integer, primary_key=True, autoincrement=True)
     group_name = Column(String(80), nullable=False, unique=True)
     group_type = Column(Enum(UserGroupType), default=UserGroupType.ETC)
     region_code = Column(String(10))
@@ -98,7 +98,7 @@ class UserGroup(Base):
 class User(Base):
     __tablename__ = "users"
     
-    user_id = Column(BigInteger, primary_key=True, autoincrement=True)
+    user_id = Column(Integer, primary_key=True, autoincrement=True)
     username = Column(String(50), nullable=False, unique=True)
     email = Column(String(120), unique=True)
     password_hash = Column(String(255))
@@ -188,7 +188,7 @@ class GroupChallengeMember(Base):
 class CarbonFactor(Base):
     __tablename__ = "carbon_factors"
     
-    factor_id = Column(BigInteger, primary_key=True, autoincrement=True)
+    factor_id = Column(Integer, primary_key=True, autoincrement=True)
     mode = Column(Enum(TransportMode, name="transport_mode"), nullable=False)
     g_per_km = Column(Numeric(10, 3), nullable=False)  # gCO2/km
     valid_from = Column(DateTime, nullable=False)
@@ -212,7 +212,7 @@ class IngestSource(Base):
 class MobilityLog(Base):
     __tablename__ = "mobility_logs"
     
-    log_id = Column(BigInteger, primary_key=True, autoincrement=True)
+    log_id = Column(Integer, primary_key=True, autoincrement=True)
     user_id = Column(BigInteger, ForeignKey("users.user_id"), nullable=False)
     source_id = Column(BigInteger, ForeignKey("ingest_sources.source_id"))
     mode = Column(Enum(TransportMode), nullable=False)
@@ -240,7 +240,7 @@ class MobilityLog(Base):
 class CreditsLedger(Base):
     __tablename__ = "credits_ledger"
     
-    entry_id = Column(BigInteger, primary_key=True, autoincrement=True)
+    entry_id = Column(Integer, primary_key=True, autoincrement=True)
     user_id = Column(BigInteger, ForeignKey("users.user_id"), nullable=False)
     ref_log_id = Column(BigInteger, ForeignKey("mobility_logs.log_id"))
     type = Column(Enum(CreditType), nullable=False)
@@ -257,7 +257,7 @@ class CreditsLedger(Base):
 class Challenge(Base):
     __tablename__ = "challenges"
     
-    challenge_id = Column(BigInteger, primary_key=True, autoincrement=True)
+    challenge_id = Column(Integer, primary_key=True, autoincrement=True)
     title = Column(String(100), nullable=False)
     description = Column(String(255))
     scope = Column(Enum(ChallengeScope), default=ChallengeScope.PERSONAL)
@@ -289,7 +289,7 @@ class ChallengeMember(Base):
 class Achievement(Base):
     __tablename__ = "achievements"
     
-    achievement_id = Column(BigInteger, primary_key=True, autoincrement=True)
+    achievement_id = Column(Integer, primary_key=True, autoincrement=True)
     code = Column(String(50), unique=True)
     title = Column(String(100), nullable=False)
     description = Column(String(255))
@@ -309,7 +309,7 @@ class UserAchievement(Base):
 class Notification(Base):
     __tablename__ = "notifications"
     
-    notification_id = Column(BigInteger, primary_key=True, autoincrement=True)
+    notification_id = Column(Integer, primary_key=True, autoincrement=True)
     user_id = Column(BigInteger, ForeignKey("users.user_id"), nullable=False)
     title = Column(String(120), nullable=False)
     body = Column(String(500))
@@ -321,7 +321,7 @@ class Notification(Base):
 class IngestRaw(Base):
     __tablename__ = "ingest_raw"
     
-    raw_id = Column(BigInteger, primary_key=True, autoincrement=True)
+    raw_id = Column(Integer, primary_key=True, autoincrement=True)
     source_id = Column(BigInteger, ForeignKey("ingest_sources.source_id"), nullable=False)
     user_id = Column(BigInteger, ForeignKey("users.user_id"))
     captured_at = Column(DateTime, nullable=False)
@@ -380,7 +380,7 @@ class TtareungiStation(Base):
 class GardenLevel(Base):
     __tablename__ = "garden_levels"
     
-    level_id = Column(BigInteger, primary_key=True, autoincrement=True)
+    level_id = Column(Integer, primary_key=True, autoincrement=True)
     level_number = Column(Integer, nullable=False, unique=True)
     level_name = Column(String(50), nullable=False)
     image_path = Column(String(255), nullable=False)
@@ -393,7 +393,7 @@ class GardenLevel(Base):
 class UserGarden(Base):
     __tablename__ = "user_gardens"
     
-    garden_id = Column(BigInteger, primary_key=True, autoincrement=True)
+    garden_id = Column(Integer, primary_key=True, autoincrement=True)
     user_id = Column(BigInteger, ForeignKey("users.user_id"), nullable=False)
     current_level_id = Column(BigInteger, ForeignKey("garden_levels.level_id"), nullable=False)
     waters_count = Column(Integer, default=0)
@@ -408,7 +408,7 @@ class UserGarden(Base):
 class GardenWateringLog(Base):
     __tablename__ = "garden_watering_logs"
     
-    log_id = Column(BigInteger, primary_key=True, autoincrement=True)
+    log_id = Column(Integer, primary_key=True, autoincrement=True)
     garden_id = Column(BigInteger, ForeignKey("user_gardens.garden_id"), nullable=False)
     user_id = Column(BigInteger, ForeignKey("users.user_id"), nullable=False)
     points_spent = Column(Integer, default=10)
@@ -423,7 +423,7 @@ class GardenWateringLog(Base):
 class UserInventory(Base):
     __tablename__ = "user_inventory"
     
-    inventory_id = Column(BigInteger, primary_key=True, autoincrement=True)
+    inventory_id = Column(Integer, primary_key=True, autoincrement=True)
     user_id = Column(BigInteger, ForeignKey("users.user_id"), nullable=False)
     item_id = Column(String(50), nullable=False) # Corresponds to ID in shop_data
     quantity = Column(Integer, nullable=False, default=1)
@@ -433,7 +433,7 @@ class UserInventory(Base):
 class PlacedObject(Base):
     __tablename__ = "placed_objects"
     
-    placed_id = Column(BigInteger, primary_key=True, autoincrement=True)
+    placed_id = Column(Integer, primary_key=True, autoincrement=True)
     user_id = Column(BigInteger, ForeignKey("users.user_id"), nullable=False)
     item_id = Column(String(50), nullable=False)
     x = Column(Numeric(10, 4), nullable=False)

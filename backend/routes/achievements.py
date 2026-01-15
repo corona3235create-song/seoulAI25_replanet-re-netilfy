@@ -3,9 +3,9 @@ from sqlalchemy.orm import Session
 from sqlalchemy import text
 from typing import List
 
-from .. import crud, models, schemas
-from ..database import get_db
-from ..dependencies import get_current_user # Import get_current_user
+import crud, models, schemas
+from database import get_db
+from dependencies import get_current_user # Import get_current_user
 
 router = APIRouter(
     prefix="/api/achievements", # Change prefix to include /api

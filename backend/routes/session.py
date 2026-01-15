@@ -4,8 +4,8 @@ from typing import Dict, Any, Optional
 from datetime import datetime, timedelta
 import json
 
-from backend.database import get_db
-from backend.models import User
+from database import get_db
+from models import User
 
 router = APIRouter(prefix="/api/session", tags=["session"])
 

@@ -11,11 +11,11 @@ from datetime import datetime
 
 # --- 애플리케이션 모듈 임포트 ---
 # 프로젝트 구조에 맞게 경로가 설정되어 있는지 확인 필요
-from .routes.ai_challenge_router import AICallengeCreateRequest, create_and_join_ai_challenge
-from .routes.dashboard import get_dashboard
-from . import schemas
-from .models import User, TransportMode
-from .database import get_db
+from routes.ai_challenge_router import AICallengeCreateRequest, create_and_join_ai_challenge
+from routes.dashboard import get_dashboard
+import schemas
+from models import User, TransportMode
+from database import get_db
 
 # --- 설정 ---
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")

@@ -1,129 +1,104 @@
-첫 프로젝트 리플래닛
+# Replanet Project Guide
 
-### 프로젝트 실행 가이드
-1. 공통 사항
+This guide provides instructions for setting up and running the Replanet project locally.
 
-프로젝트 구조
-프로젝트 루트/
-├─ backend/          # Python 백엔드
-├─ frontend/         # React 프론트엔드
-└─ .env              # 환경 변수
-.env 파일은 백엔드, 프론트엔드 각각 필요한 값을 설정해야 합니다.
-백엔드는 Python 3.11, 프론트엔드는 Node.js + npm/yarn 사용.
+## 1. Project Overview & Tech Stack
 
-2. 윈도우 로컬 환경
-2-1. 백엔드 실행
-cd backend
-python -m venv venv
-.\venv\Scripts\activate
+-   **Service Name:** Replanet - Eco Challenge and Carbon Reduction Management Service.
+-   **Backend:** Python 3.11, FastAPI, SQLAlchemy, SQLite (ecooo.db).
+-   **Frontend:** React (npm/yarn).
 
-활성화되면 (venv) 표시가 터미널 앞에 붙음
-pip install -r requirements.txt
+## 2. Core Principles
 
-## 백엔드 서버 실행
-uvicorn backend.main:app --host 127.0.0.1 --port 8000 --reload
+-   **Local & Free Service:** This setup removes all AWS dependencies, focusing on local or free hosting environments.
+-   **Existing Logic Preservation:** Core business logic remains intact.
+-   **Resource Efficiency:** Optimized code and minimal resource consumption.
 
+## 3. Local Development Environment Setup
 
-2-2. 프론트엔드 실행
+### 3.1. Common Requirements
 
+-   **Python:** Version 3.11 or higher.
+-   **Node.js & npm/yarn:** For frontend development.
+-   **.env file:** Located in the project root. This file contains necessary environment variables for both backend and frontend.
 
-cd frontend
-npm install
-npm start
-# 또는 yarn start
+### 3.2. Backend Setup & Execution
 
+1.  **Navigate to Backend Directory:**
+    ```bash
+    cd backend
+    ```
 
-브라우저에서 http://localhost:3000
- 으로 접속 가능
+2.  **Create and Activate Virtual Environment:**
+    ```bash
+    python -m venv venv
+    .\venv\Scripts\activate  # On Windows
+    # source venv/bin/activate # On Linux/macOS
+    ```
+    (You should see `(venv)` prefix in your terminal after activation)
 
-3. 리눅스 (EC2 아마존 리눅스) 환경
-3-1. 백엔드 실행
+3.  **Install Dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-백엔드 폴더 이동
+4.  **Configure Environment Variables (`.env` in project root):**
+    Ensure the following variables are set in the **project root's** `.env` file:
+    ```
+    # Example .env content
+    SECRET_KEY="YOUR_SUPER_SECRET_KEY_HERE"
+    ALGORITHM="HS256"
+    
+    # OpenAI API Key for AI chatbot functionality
+    OPENAI_API_KEY="YOUR_OPENAI_API_KEY"
+    
+    # Google Custom Search API Keys for web search functionality (Optional)
+    GOOGLE_API_KEY="YOUR_GOOGLE_API_KEY"
+    GOOGLE_CSE_ID="YOUR_GOOGLE_CSE_ID"
+    ```
+    *Note: The backend is configured to use a local SQLite database located at `backend/database/ecooo.db`. This database will be automatically created and initialized with schema and seed data (including admin and test users) when the server starts for the first time.*
 
-cd backend
+5.  **Run Backend Server:**
+    ```bash
+    uvicorn backend.main:app --host 0.0.0.0 --port 8080 --reload
+    ```
+    The backend server will run on `http://localhost:8080`.
 
+### 3.3. Frontend Setup & Execution
 
-가상 환경 생성 및 활성화
+1.  **Navigate to Frontend Directory:**
+    ```bash
+    cd frontend
+    ```
 
-python -m venv venv
-source venv/bin/activate
+2.  **Install Dependencies:**
+    ```bash
+    npm install
+    # or yarn install
+    ```
 
+3.  **Configure Environment Variables (`.env` in frontend directory):**
+    Create a `.env` file in the `frontend/` directory and set the API URL:
+    ```
+    REACT_APP_API_URL=http://localhost:8080
+    ```
 
-의존성 설치
+4.  **Run Frontend Server:**
+    ```bash
+    npm start
+    # or yarn start
+    ```
+    The frontend application will typically open in your browser at `http://localhost:3000`.
 
-pip install -r requirements.txt
+## 4. Key Accounts
 
+-   **Admin User:**
+    -   ID: `admin@admin`
+    -   Password: `12345678`
+-   **Test User:**
+    -   ID: `test@gmail.com`
+    -   Password: `1234`
 
-환경 변수 설정
+## 5. Additional Information
 
-nano .env
-
-
-Windows와 동일하게 필요한 환경 변수 입력
-
-백엔드 서버 실행
-
-uvicorn backend.main:app --host 0.0.0.0 --port 8000 --reload
-
-
-외부에서 접근 가능하도록 --host 0.0.0.0 설정
-
-3-2. 프론트엔드 실행
-
-프론트엔드 폴더 이동
-
-cd ~/replanet_finished/replanet_v1313123/frontend
-
-
-의존성 설치
-
-npm install
-# 또는 yarn install
-
-
-환경 변수 설정
-
-nano .env
-
-REACT_APP_API_URL=http://EC2_공인_IP:8000
-
-
-프론트엔드 서버 실행
-
-npm start
-# 또는 yarn start
-
-
-EC2 공인 IP + 3000 포트로 외부 접속 가능: http://54.67.87.233:3000
-54.67.87.233
-
-4. 추가 팁
-
-백엔드 재시작
-
-ps aux | grep uvicorn    # 실행 중인 PID 확인
-kill <PID>               # 프로세스 종료
-uvicorn backend.main:app --host 0.0.0.0 --port 8000 --reload
-
-
-#### EC2에서 계속 실행
-
-nohup uvicorn backend.main:app --host 0.0.0.0 --port 8000 & #제출시 백엔드
- 
-nohup serve -s build -l 3000 & #제출시 프론트엔드 
-
-ps aux | grep node # PID 확인
-npm run build #프론트 코드 변경시
-
-프론트: http://54.67.87.233:3000
-
-백엔드: http://54.67.87.233:8000
-로 접속가능
-
-Git 동기화
-
-git pull origin main
-
-
-자동 동기화는 안 됨, 새 커밋 있을 때마다 pull 필요
+-   **Local Reports:** Generated PDF reports are saved in `backend/reports/` and can be accessed via `http://localhost:8080/reports/<filename>`.

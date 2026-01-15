@@ -2,8 +2,8 @@ import secrets
 from typing import Optional, List
 from sqlalchemy.orm import Session, joinedload
 from sqlalchemy import and_, func
-from backend.models import Group, GroupMember, User, GroupRole, MobilityLog
-from backend.schemas import GroupCreateWithUsernames, GroupUpdate
+from models import Group, GroupMember, User, GroupRole, MobilityLog
+from schemas import GroupCreateWithUsernames, GroupUpdate
 from fastapi import HTTPException, status
 
 class GroupService:

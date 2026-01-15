@@ -1,1 +1,22 @@
 node_modules
+
+### Python ###
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+/bin/
+/lib/
+
+### 환경 변수 (보안 필수) ###
+.env
+.env.*
+### Database ###
+*.db
+*.sqlite3
+
+### IDE (팀원마다 다를 수 있음) ###
+.vscode/
+.idea/

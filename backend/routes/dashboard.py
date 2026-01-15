@@ -4,10 +4,10 @@ from sqlalchemy.orm import Session
 from sqlalchemy import text, func
 from typing import Dict, Any, List
 from datetime import datetime, timedelta
-from ..database import get_db
-from ..models import User, CreditsLedger, MobilityLog, UserGarden, GardenLevel
-from ..schemas import DashboardStats, DailySaving, ModeStat, ChallengeStat, DailyStats, WeeklyStats
-from ..dependencies import get_current_user
+from database import get_db
+from models import User, CreditsLedger, MobilityLog, UserGarden, GardenLevel
+from schemas import DashboardStats, DailySaving, ModeStat, ChallengeStat, DailyStats, WeeklyStats
+from dependencies import get_current_user
 
 router = APIRouter(prefix="/api/dashboard", tags=["dashboard"])
 

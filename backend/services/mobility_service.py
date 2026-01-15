@@ -1,4 +1,3 @@
-
 import os
 import json
 from sqlalchemy.orm import Session
@@ -6,8 +5,8 @@ from datetime import datetime
 from math import radians, sin, cos, sqrt, atan2
 from sqlalchemy import func
 
-from backend import schemas, models, crud
-from backend.services.group_challenge_service import GroupChallengeService
+import schemas, models, crud
+from services.group_challenge_service import GroupChallengeService
 
 # Constants from mobility.py
 DEFAULT_CARBON_FACTORS = {

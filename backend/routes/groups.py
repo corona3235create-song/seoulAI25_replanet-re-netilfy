@@ -2,10 +2,10 @@
 from fastapi import APIRouter, Depends, HTTPException, status
 from sqlalchemy.orm import Session
 from typing import List
-from backend.database import get_db
-from backend.dependencies import get_current_user
-from backend.schemas import GroupCreateWithUsernames, GroupUpdate, Group as GroupSchema
-from backend.services.group_service import GroupService
+from database import get_db
+from dependencies import get_current_user
+from schemas import GroupCreateWithUsernames, GroupUpdate, Group as GroupSchema
+from services.group_service import GroupService
 
 router = APIRouter(prefix="/groups", tags=["groups"])
 

@@ -5,8 +5,8 @@ from jose import JWTError, jwt
 import os
 from typing import Optional
 
-from .. import crud, schemas
-from ..database import get_db
+import crud, schemas
+from database import get_db
 
 # .env 파일에서 SECRET_KEY, ALGORITHM, ACCESS_TOKEN_EXPIRE_MINUTES 로드
 SECRET_KEY = os.getenv("SECRET_KEY")

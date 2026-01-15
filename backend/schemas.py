@@ -1,8 +1,8 @@
-from pydantic import BaseModel, Field, computed_field
+from pydantic import BaseModel, Field
 from typing import Optional, List, Dict, Any
 from datetime import datetime
 from enum import Enum
-from backend.models import User, ChallengeCompletionType, ChallengeStatus # Add this line
+from models import User, ChallengeCompletionType, ChallengeStatus 
 
 # --------------------------
 # ENUM 정의 (모든 Enum을 여기에 모음)

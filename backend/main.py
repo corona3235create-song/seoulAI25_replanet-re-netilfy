@@ -7,10 +7,10 @@ from dotenv import load_dotenv
 # .env 파일 로드
 load_dotenv(os.path.join(os.path.dirname(__file__), "../.env"))
 
-from .database import init_db, SessionLocal
-from .routes import dashboard, credits, challenges, auth, achievements, users, admin, mobility, ai_challenge_router, groups, group_challenges, shop, garden
-from .seed_admin_user import seed_admin_user
-from .ai_logic import router as chat_router
+from database import init_db, SessionLocal
+from routes import dashboard, credits, challenges, auth, achievements, users, admin, mobility, ai_challenge_router, groups, group_challenges, shop, garden
+from seed_admin_user import seed_admin_user
+from ai_logic import router as chat_router
 
 # FastAPI 앱 생성
 app = FastAPI(
@@ -38,6 +38,10 @@ app.add_middleware(
 if os.path.exists("frontend/public"):
     app.mount("/images", StaticFiles(directory="frontend/public"), name="images")
 
+# 정적 파일 서빙 (리포트 PDF)
+if os.path.exists("backend/reports"):
+    app.mount("/reports", StaticFiles(directory="backend/reports"), name="reports")
+
 # 라우터 등록
 app.include_router(dashboard.router)
 app.include_router(credits.router)
@@ -61,13 +65,6 @@ async def startup_event():
     # 데이터베이스 테이블 생성 및 초기 데이터 시딩
     init_db()
 
-    # 관리자 사용자 시드
-    db = SessionLocal()
-    try:
-        seed_admin_user(db)
-    finally:
-        db.close()
-
 @app.get("/")
 async def root():
     """루트 엔드포인트"""
@@ -84,4 +81,4 @@ async def health_check():
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=8080)

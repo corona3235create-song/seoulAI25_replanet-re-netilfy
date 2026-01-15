@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from backend.schemas import ChatMessage, ChatResponse
+from schemas import ChatMessage, ChatResponse
 
 router = APIRouter(prefix="/chat", tags=["chat"])
 

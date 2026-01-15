@@ -1,4 +1,3 @@
-
 import csv
 import os
 import sys
@@ -8,8 +7,8 @@ from sqlalchemy import create_engine
 # Add the project root to the Python path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from backend.database import Base, engine
-from backend.models import BusStop, SubwayStation, TtareungiStation
+from database import Base, engine
+from models import BusStop, SubwayStation, TtareungiStation
 
 # --- Configuration ---
 # Adjust the path to your actual CSV files

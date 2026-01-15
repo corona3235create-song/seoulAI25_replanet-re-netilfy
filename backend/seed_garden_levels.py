@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-from .models import GardenLevel
+from models import GardenLevel
 
 def seed_garden_levels(db: Session):
     # Check if levels already exist

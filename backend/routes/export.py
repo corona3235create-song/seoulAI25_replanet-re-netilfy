@@ -13,9 +13,7 @@ from reportlab.lib.units import inch
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer, Table, TableStyle, PageBreak
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_CENTER, TA_LEFT, TA_RIGHT
-import boto3
 import os
-from botocore.exceptions import ClientError
 from dotenv import load_dotenv
 
 # .env 파일 로드
@@ -23,15 +21,13 @@ load_dotenv()
 
 router = APIRouter()
 
-# AWS S3 설정 (환경변수에서 가져오기)
-AWS_ACCESS_KEY_ID = os.getenv('AWS_ACCESS_KEY_ID')
-AWS_SECRET_ACCESS_KEY = os.getenv('AWS_SECRET_ACCESS_KEY')
-AWS_REGION = os.getenv('AWS_REGION', 'ap-northeast-2')
-S3_BUCKET_NAME = os.getenv('S3_BUCKET_NAME', 'ecooo-reports')
+# 로컬 리포트 저장 디렉토리 설정
+REPORTS_DIR = "backend/reports"
+os.makedirs(REPORTS_DIR, exist_ok=True) # 디렉토리가 없으면 생성
 
 def get_db_connection():
     """SQLite 데이터베이스 연결"""
-    conn = sqlite3.connect('ecooo.db')
+    conn = sqlite3.connect('backend/database/ecoooo.db')
     conn.row_factory = sqlite3.Row
     return conn
 
@@ -240,29 +236,13 @@ def create_pdf_report(user_data: Dict[str, Any], stats: Dict[str, Any]) -> bytes
     buffer.seek(0)
     return buffer.getvalue()
 
-def upload_to_s3(pdf_content: bytes, filename: str) -> str:
-    """S3에 PDF 업로드"""
-    try:
-        s3_client = boto3.client(
-            's3',
-            aws_access_key_id=AWS_ACCESS_KEY_ID,
-            aws_secret_access_key=AWS_SECRET_ACCESS_KEY,
-            region_name=AWS_REGION
-        )
-        
-        s3_client.put_object(
-            Bucket=S3_BUCKET_NAME,
-            Key=f"reports/{filename}",
-            Body=pdf_content,
-            ContentType='application/pdf'
-        )
-        
-        # CloudFront URL 생성 (CDN을 사용하는 경우)
-        return f"https://{S3_BUCKET_NAME}.s3.{AWS_REGION}.amazonaws.com/reports/{filename}"
-        
-    except ClientError as e:
-        print(f"S3 업로드 오류: {e}")
-        return None
+def save_pdf_locally(pdf_content: bytes, filename: str) -> str:
+    """PDF를 로컬에 저장하고 로컬 경로를 반환"""
+    file_path = os.path.join(REPORTS_DIR, filename)
+    with open(file_path, "wb") as f:
+        f.write(pdf_content)
+    return f"/reports/{filename}" # FastAPI에서 정적 파일로 서빙될 경로
+
 
 @router.get("/api/export/activity-report/{user_id}")
 async def generate_activity_report(user_id: int):
@@ -283,11 +263,6 @@ async def generate_activity_report(user_id: int):
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         filename = f"activity_report_{user_id}_{timestamp}.pdf"
         
-        # S3 업로드 (선택사항)
-        s3_url = None
-        if AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY:
-            s3_url = upload_to_s3(pdf_content, filename)
-        
         # 직접 다운로드 응답
         return StreamingResponse(
             io.BytesIO(pdf_content),
@@ -301,9 +276,9 @@ async def generate_activity_report(user_id: int):
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"리포트 생성 중 오류가 발생했습니다: {str(e)}")
 
-@router.get("/api/export/activity-report/{user_id}/s3")
-async def get_s3_report_url(user_id: int):
-    """S3에 저장된 리포트 URL 반환"""
+@router.get("/api/export/activity-report/{user_id}/local")
+async def get_local_report_url(user_id: int):
+    """로컬에 저장된 리포트 URL 반환"""
     try:
         # 사용자 데이터 가져오기
         user_data = get_user_data(user_id)
@@ -320,18 +295,18 @@ async def get_s3_report_url(user_id: int):
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         filename = f"activity_report_{user_id}_{timestamp}.pdf"
         
-        # S3 업로드
-        s3_url = upload_to_s3(pdf_content, filename)
+        # 로컬에 저장
+        local_url = save_pdf_locally(pdf_content, filename)
         
-        if s3_url:
+        if local_url:
             return {
                 "success": True,
-                "download_url": s3_url,
+                "download_url": local_url,
                 "filename": filename,
-                "expires_at": (datetime.now() + timedelta(days=7)).isoformat()
+                "expires_at": (datetime.now() + timedelta(days=7)).isoformat() # 만료 시간은 로컬 파일에 의미 없을 수 있으나 기존 스키마 유지
             }
         else:
-            raise HTTPException(status_code=500, detail="S3 업로드에 실패했습니다.")
+            raise HTTPException(status_code=500, detail="리포트 로컬 저장에 실패했습니다.")
             
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"리포트 생성 중 오류가 발생했습니다: {str(e)}")

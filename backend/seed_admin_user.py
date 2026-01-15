@@ -1,8 +1,8 @@
 from sqlalchemy.orm import Session
 from datetime import datetime
 
-from .database import SessionLocal, engine
-from . import crud, schemas, models
+from database import SessionLocal, engine
+import crud, schemas, models
 
 # Ensure tables are created
 models.Base.metadata.create_all(bind=engine)

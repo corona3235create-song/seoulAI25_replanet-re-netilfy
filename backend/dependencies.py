@@ -2,16 +2,13 @@ from fastapi import Depends, HTTPException, status
 from fastapi.security import OAuth2PasswordBearer
 from jose import JWTError, jwt
 from sqlalchemy.orm import Session
-from . import models, schemas
-from .database import get_db
+import models, schemas
+from database import get_db
 import os
 
 # .env 파일에서 SECRET_KEY와 ALGORITHM 로드
 SECRET_KEY = os.getenv("SECRET_KEY")
 ALGORITHM = os.getenv("ALGORITHM")
-
-if not SECRET_KEY or not ALGORITHM:
-    raise ValueError("SECRET_KEY and ALGORITHM must be set in .env file")
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="auth/login")
 
